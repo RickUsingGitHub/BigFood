@@ -18,7 +18,7 @@ A companion to [Big Pharma on Trial](https://github.com/RickUsingGitHub/BigPharm
 | **Try it yourself** | A **sugar counter** for your daily drinks (teaspoons, kilograms a year, WHO limits) and a **standard drinks counter** (Australian guideline, relative breast and bowel cancer risk). |
 | **Meanwhile, in Australia** | The Heart Foundation Tick on McDonald's, Milo's 4.5 stars, Heinz toddler snacks, the "Australian Paradox", the Sydney Diet Heart Study and fake free-range eggs. |
 | **The verdict** | What the science agrees on, which scares don't hold up, an 11-point "is Big Food getting better?" scorecard, and the bottom line. |
-| **Every case** | A timeline and a searchable, filterable, sortable table of all 48 cases, also downloadable as [CSV](data/cases.csv) or [JSON](data/cases.json). The food files and evidence grid are in [data/foods.json](data/foods.json). |
+| **Every case** | A timeline and a searchable, filterable, sortable table of all 51 cases, also downloadable as [CSV](data/cases.csv) or [JSON](data/cases.json). The food files and evidence grid are in [data/foods.json](data/foods.json). |
 
 ## Viewing it
 

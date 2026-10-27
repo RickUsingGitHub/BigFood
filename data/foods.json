@@ -73,6 +73,15 @@
       },
       "science": [
         {
+          "text": "Sugary drinks are estimated to cause about 184,000 deaths a year worldwide, mostly from diabetes and heart disease.",
+          "sources": [
+            {
+              "label": "Singh et al., Circulation 2015",
+              "url": "https://doi.org/10.1161/CIRCULATIONAHA.114.010636"
+            }
+          ]
+        },
+        {
           "text": "One sugary drink a day was linked to an 18% higher risk of type 2 diabetes (13% after allowing for body weight).",
           "sources": [
             {
@@ -404,9 +413,18 @@
       },
       "evidence": {
         "pos": 0,
-        "text": "Up to an egg a day shows no clear link to heart disease for most people."
+        "text": "A small rise in LDL, but up to an egg a day shows no clear link to heart disease for most people. Plant proteins do better still."
       },
       "science": [
+        {
+          "text": "In trials, eggs raise LDL (\"bad\") cholesterol a little: about 0.15 mmol/L on average, with HDL rising slightly too.",
+          "sources": [
+            {
+              "label": "Rouhani et al., J Am Coll Nutr 2018",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29111915/"
+            }
+          ]
+        },
         {
           "text": "Pooled data on 1.7 million people found no link between up to an egg a day and heart disease.",
           "sources": [
@@ -417,11 +435,24 @@
           ]
         },
         {
-          "text": "But in six other US cohorts, each extra half-egg a day was linked to a 6% higher risk of heart disease, so the debate isn't over.",
+          "text": "But in six US cohorts, each extra half-egg a day was linked to a 6% higher risk of heart disease. That's about 1 extra case per 90 people over 17 years, if it's causal. The harm shows up mainly in US studies, where egg-eaters also eat more bacon and fried food; for type 2 diabetes, US studies show 18% more risk per egg a day, while European and Asian studies show none.",
           "sources": [
             {
               "label": "Zhong et al., JAMA 2019",
               "url": "https://doi.org/10.1001/jama.2019.1572"
+            },
+            {
+              "label": "Drouin-Chartier et al., Am J Clin Nutr 2020",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7458776"
+            }
+          ]
+        },
+        {
+          "text": "What eggs replace matters most. In the Harvard cohorts, swapping eggs for plant proteins (nuts, beans, wholegrains) was linked to lower heart risk. Swapping them for bacon or pastries would go the other way.",
+          "sources": [
+            {
+              "label": "Drouin-Chartier et al., BMJ 2020",
+              "url": "https://doi.org/10.1136/bmj.m513"
             }
           ]
         },
@@ -442,10 +473,23 @@
               "url": "https://hsrc.himmelfarb.gwu.edu/smhs_medicine_facpubs/3446"
             }
           ]
+        },
+        {
+          "text": "Two of the most-publicised recent \"good news\" egg studies (Alzheimer's, 2024; \"two eggs a day lowers cholesterol\", 2025) were both funded by the American Egg Board's Egg Nutrition Center.",
+          "sources": [
+            {
+              "label": "Nestle on the 2025 egg–LDL trial",
+              "url": "https://www.foodpolitics.com/2025/07/industry-funded-study-of-the-week-eggs-2/"
+            },
+            {
+              "label": "Nestle on the 2024 egg–Alzheimer’s study",
+              "url": "https://www.foodpolitics.com/2025/10/industry-funded-study-of-the-week-eggs-and-alzheimers-risk/"
+            }
+          ]
         }
       ],
       "australia": "The ACCC won penalties against egg farms whose \"free range\" hens barely went outside. The 2017 national standard then allowed up to 10,000 hens per hectare.",
-      "what_to_do": "An egg a day is fine for most people. What comes with it (bacon, butter, white toast) matters more."
+      "what_to_do": "An egg a day is fine for most people; fewer than 7 a week if you have type 2 diabetes. What comes with it (bacon, butter, white toast) matters more, and beans or nuts do better still."
     },
     {
       "id": "dairy",
@@ -487,6 +531,19 @@
             {
               "label": "Chen et al., BMC Medicine 2014",
               "url": "https://doi.org/10.1186/s12916-014-0215-1"
+            }
+          ]
+        },
+        {
+          "text": "A2 milk may cause less bloating for some people, but claims that it protects against diabetes, heart disease or autism aren't supported. It has the same lactose as ordinary milk.",
+          "sources": [
+            {
+              "label": "EFSA review of beta-casomorphins, 2009",
+              "url": "https://www.efsa.europa.eu/en/efsajournal/pub/231r"
+            },
+            {
+              "label": "Review of A1/A2 milk studies in humans",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10806982/"
             }
           ]
         },
@@ -1035,11 +1092,11 @@
       "cells": {
         "Heart & stroke": {
           "value": 0,
-          "note": "Up to 1 a day: no clear link in most analyses."
+          "note": "Up to 1 a day: no clear link in most analyses, though LDL rises slightly and US studies show a small risk."
         },
         "Type 2 diabetes": {
           "value": "u",
-          "note": "US studies suggest risk; others don’t."
+          "note": "Higher risk in US studies (+18% per egg a day); none in Europe or Asia."
         },
         "Bowel cancer": {
           "value": 0,

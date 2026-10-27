@@ -60,6 +60,13 @@
     besRastrollo: S('Bes-Rastrollo et al., PLOS Medicine 2013', 'https://doi.org/10.1371/journal.pmed.1001578'),
     lesser: S('Lesser et al., PLOS Medicine 2007', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC1764435'),
     barnard: S('Barnard et al., Am J Lifestyle Med 2019', 'https://hsrc.himmelfarb.gwu.edu/smhs_medicine_facpubs/3446'),
+    rouhani: S('Rouhani et al., J Am Coll Nutr 2018', 'https://pubmed.ncbi.nlm.nih.gov/29111915/'),
+    eggT2d: S('Drouin-Chartier et al., Am J Clin Nutr 2020', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7458776'),
+    eggUniSA: S('Nestle on the 2025 egg–LDL trial', 'https://www.foodpolitics.com/2025/07/industry-funded-study-of-the-week-eggs-2/'),
+    eggAlz: S('Nestle on the 2024 egg–Alzheimer’s study', 'https://www.foodpolitics.com/2025/10/industry-funded-study-of-the-week-eggs-and-alzheimers-risk/'),
+    singh: S('Singh et al., Circulation 2015', 'https://doi.org/10.1161/CIRCULATIONAHA.114.010636'),
+    efsaA2: S('EFSA review of beta-casomorphins, 2009', 'https://www.efsa.europa.eu/en/efsajournal/pub/231r'),
+    a2Review: S('Review of A1/A2 milk studies in humans', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10806982/'),
     iarcCoffee: S('IARC press release 244, 2016', 'https://www.iarc.who.int/wp-content/uploads/2018/07/pr244_E.pdf'),
     cosmos: S('Sesso et al. (COSMOS), Am J Clin Nutr 2022', 'https://doi.org/10.1093/ajcn/nqac055')
   };
@@ -132,6 +139,7 @@
       told: { pos: 0, who: 'Coca-Cola-funded scientists, 2015', text: `"Fine as part of an active lifestyle. The problem is lack of exercise."` },
       now: { pos: -2, text: `Strongly linked to weight gain, type 2 diabetes and tooth decay.` },
       science: [
+        [`Sugary drinks are estimated to cause about 184,000 deaths a year worldwide, mostly from diabetes and heart disease.`, SRC.singh],
         [`One sugary drink a day was linked to an 18% higher risk of type 2 diabetes (13% after allowing for body weight).`, SRC.imamura],
         [`Trials and cohort studies show sugary drinks cause weight gain in children and adults.`, SRC.malik13],
         [`Two or more a day was linked to a higher risk of early death in two big US cohorts.`, SRC.malik19],
@@ -201,15 +209,18 @@
     { id: 'eggs', name: 'Eggs', sub: 'And dietary cholesterol', verdict: 'fine', certainty: 'moderate',
       one: `Off the naughty list for most people. But the egg industry paid for a lot of that rehabilitation.`,
       told: { pos: -1.5, who: 'Heart guidelines, 1970s–2015', text: `"A cholesterol bomb. No more than 3 a week."` },
-      now: { pos: 0, text: `Up to an egg a day shows no clear link to heart disease for most people.` },
+      now: { pos: 0, text: `A small rise in LDL, but up to an egg a day shows no clear link to heart disease for most people. Plant proteins do better still.` },
       science: [
+        [`In trials, eggs raise LDL ("bad") cholesterol a little: about 0.15 mmol/L on average, with HDL rising slightly too.`, SRC.rouhani],
         [`Pooled data on 1.7 million people found no link between up to an egg a day and heart disease.`, SRC.drouin],
-        [`But in six other US cohorts, each extra half-egg a day was linked to a 6% higher risk of heart disease, so the debate isn't over.`, SRC.zhong],
+        [`But in six US cohorts, each extra half-egg a day was linked to a 6% higher risk of heart disease. That's about 1 extra case per 90 people over 17 years, if it's causal. The harm shows up mainly in US studies, where egg-eaters also eat more bacon and fried food; for type 2 diabetes, US studies show 18% more risk per egg a day, while European and Asian studies show none.`, SRC.zhong, SRC.eggT2d],
+        [`What eggs replace matters most. In the Harvard cohorts, swapping eggs for plant proteins (nuts, beans, wholegrains) was linked to lower heart risk. Swapping them for bacon or pastries would go the other way.`, SRC.drouin],
         [`The Heart Foundation (2019) dropped its egg limit for healthy people, but suggests fewer than 7 a week for people with type 2 diabetes.`, SRC.heartEggs],
-        [`An analysis by a vegan advocacy group found industry funding of egg–cholesterol studies rose from 0% in the 1950s to 60% in the 2010s.`, SRC.barnard]
+        [`An analysis by a vegan advocacy group found industry funding of egg–cholesterol studies rose from 0% in the 1950s to 60% in the 2010s.`, SRC.barnard],
+        [`Two of the most-publicised recent "good news" egg studies (Alzheimer's, 2024; "two eggs a day lowers cholesterol", 2025) were both funded by the American Egg Board's Egg Nutrition Center.`, SRC.eggUniSA, SRC.eggAlz]
       ],
       oz: `The ACCC won penalties against egg farms whose "free range" hens barely went outside. The 2017 national standard then allowed up to 10,000 hens per hectare.`,
-      tip: `An egg a day is fine for most people. What comes with it (bacon, butter, white toast) matters more.` },
+      tip: `An egg a day is fine for most people; fewer than 7 a week if you have type 2 diabetes. What comes with it (bacon, butter, white toast) matters more, and beans or nuts do better still.` },
     { id: 'dairy', name: 'Milk & dairy', sub: 'Milk, cheese, yoghurt', verdict: 'fine', certainty: 'moderate',
       one: `Neither the miracle the ads promised nor the poison its critics claim. Yoghurt looks best.`,
       told: { pos: 2, who: 'Dairy marketing', text: `"Strong bones! Three serves a day helps you lose weight."` },
@@ -218,6 +229,7 @@
         [`Drinking more milk was not linked to fewer hip fractures in women.`, SRC.bischoff],
         [`Dairy probably lowers bowel cancer risk (World Cancer Research Fund). High intakes may slightly raise prostate cancer risk (limited evidence).`, SRC.bowelAlc],
         [`Yoghurt is consistently linked to lower type 2 diabetes risk.`, SRC.chenYog],
+        [`A2 milk may cause less bloating for some people, but claims that it protects against diabetes, heart disease or autism aren't supported. It has the same lactose as ordinary milk.`, SRC.efsaA2, SRC.a2Review],
         [`Dairy, including full-fat, was linked to lower death and heart disease rates across 21 countries.`, SRC.dehghan]
       ],
       oz: `Selling raw milk for drinking is illegal in Australia. A Victorian toddler died in 2014 after drinking raw "bath milk".`,
@@ -324,7 +336,7 @@
       heart: ['u', 'Weak, inconsistent links.'], t2d: [-1, '+10% per 100 g a day.'], bowel: [-1, 'IARC Group 2A: probably.'],
       cancer: ['u', 'Limited evidence.'], weight: ['u', 'Unclear.'], teeth: [null], death: ['u', 'Small, inconsistent links.'] } },
     { id: 'eggs', name: 'Eggs', cells: {
-      heart: [0, 'Up to 1 a day: no clear link in most analyses.'], t2d: ['u', 'US studies suggest risk; others don’t.'], bowel: [0, 'No link.'],
+      heart: [0, 'Up to 1 a day: no clear link in most analyses, though LDL rises slightly and US studies show a small risk.'], t2d: ['u', 'Higher risk in US studies (+18% per egg a day); none in Europe or Asia.'], bowel: [0, 'No link.'],
       cancer: [0, 'No consistent link.'], weight: [0, 'No link.'], teeth: [null], death: ['u', 'Disputed (Zhong 2019 v Drouin-Chartier 2020).'] } },
     { id: 'dairy', name: 'Milk & dairy', cells: {
       heart: [0, 'Neutral or slightly protective.'], t2d: [1, 'Yoghurt linked to lower risk.'], bowel: [1, 'Probably protective (WCRF).'],
@@ -485,8 +497,8 @@
       src: [S('Greenhalgh, BMJ 2019', 'https://doi.org/10.1136/bmj.l485')] },
     { id: 'nutrirecs', year: 2019, foods: ['meat'], tactic: 'doubt', who: 'NutriRECS panel', where: 'Global', status: 'exposed',
       title: '"Keep eating red meat" guidance, and an undisclosed sugar-industry link',
-      text: `A guideline in the Annals of Internal Medicine told adults to continue current red and processed meat intake, contradicting most health bodies. Its lead author hadn't disclosed his senior role in the ILSI-funded sugar review (above) a few years before. The authors said the meat work had no industry funding.`,
-      src: [S('Johnston et al., Ann Intern Med 2019', 'https://doi.org/10.7326/M19-1621')] },
+      text: `A guideline in the Annals of Internal Medicine told adults to continue current red and processed meat intake, contradicting most health bodies. Its lead author hadn't disclosed his senior role in the ILSI-funded sugar review (above) a few years before. In December 2019 the journal published a correction adding an undisclosed grant from Texas A&M AgriLife Research, an agency that also receives beef-industry money, to his disclosures.`,
+      src: [S('Johnston et al., Ann Intern Med 2019', 'https://doi.org/10.7326/M19-1621'), S('The Cancer Letter, 2020', 'https://cancerletter.com/?p=12432')] },
     { id: 'pregnancy', year: 2020, foods: ['alcohol'], tactic: 'labels', who: 'Australian alcohol industry', where: 'Australia', status: 'policy',
       title: 'The fight over a red pregnancy warning',
       text: `After years of voluntary DrinkWise labels, ministers backed a compulsory pregnancy warning. Industry lobbied against the red colour as too costly; ministers sent it back for review, but FSANZ kept the red and changed the heading to "PREGNANCY WARNING". It became mandatory in 2023.`,
@@ -546,7 +558,19 @@
     { id: 'hsr', year: 2026, foods: ['cereal', 'upf'], tactic: 'labels', who: 'Australian food industry', where: 'Australia', status: 'policy',
       title: 'Health Star Rating: voluntary for 12 years, used on 39% of products',
       text: `Ministers set a 70% uptake target for the voluntary Health Star Rating. By November 2025 uptake was about 39%, below its 2019 peak, and makers tended to use it on their better-scoring products. In February 2026 ministers asked FSANZ to draft a compulsory standard, which could take until 2029.`,
-      src: [S('HSR uptake report, Nov 2025', 'https://www.healthstarrating.gov.au/sites/default/files/2026-02/Uptake%20of%20the%20Health%20Star%20Rating%20system%20as%20at%20November%202025.pdf'), S('Medical Republic, 2026', 'https://www.medicalrepublic.com.au/health-star-ratings-to-become-mandated-but-what-does-it-all-mean/123331')] }
+      src: [S('HSR uptake report, Nov 2025', 'https://www.healthstarrating.gov.au/sites/default/files/2026-02/Uptake%20of%20the%20Health%20Star%20Rating%20system%20as%20at%20November%202025.pdf'), S('Medical Republic, 2026', 'https://www.medicalrepublic.com.au/health-star-ratings-to-become-mandated-but-what-does-it-all-mean/123331')] },
+    { id: 'cheese', year: 2010, foods: ['dairy', 'upf'], tactic: 'capture', who: 'Dairy Management Inc. (US dairy checkoff)', where: 'US', status: 'exposed',
+      title: 'The government’s dairy marketer helped Domino’s add 40% more cheese',
+      text: `Dairy Management, a marketing body created by the US Department of Agriculture and funded mainly by compulsory levies on dairy farmers (about US$140 million a year), co-developed a Domino's pizza range with 40% more cheese and paid for a US$12 million ad campaign. It also worked with Taco Bell and McDonald's on cheesier menu items. Meanwhile the same department's dietary guidelines told Americans to cut saturated fat. Revealed by the New York Times in 2010.`,
+      src: [S('Maclean’s, 2010', 'https://www.macleans.ca/general/u-s-pushes-cheese-sales-while-warning-about-saturated-fat/'), S('Consumerist, 2010', 'https://consumerist.com/2010/11/08/government-cheese')] },
+    { id: 'a2milk', year: 2009, foods: ['dairy'], tactic: 'halo', who: 'The a2 Milk Company', where: 'Australia / NZ', status: 'unsupported',
+      title: 'A2 milk: easier on some stomachs, not a cure-all',
+      text: `Early research and marketing around A2 milk suggested the A1 protein in ordinary milk might contribute to type 1 diabetes, heart disease and even autism. The European Food Safety Authority found no cause-and-effect link in 2009. Later reviews found reasonable evidence that A2 milk causes less bloating and discomfort for some people, but little or none for the wider claims. Several of the positive digestion trials were funded by The a2 Milk Company, which is listed in Australia and New Zealand. A2 milk has the same lactose, so it doesn't help true lactose intolerance.`,
+      src: [SRC.efsaA2, SRC.a2Review] },
+    { id: 'eggs2025', year: 2025, foods: ['eggs'], tactic: 'pay', who: 'Egg Nutrition Center (American Egg Board)', where: 'Australia / US', status: 'funded',
+      title: '"Two eggs a day lowers cholesterol": the headline, and who paid',
+      text: `A 2025 University of South Australia trial made world news for finding that two eggs a day lowered LDL cholesterol. But the egg diet was low in saturated fat and the comparison diet was high in it, so it showed that saturated fat drives LDL, not that eggs lower it. It was funded by the American Egg Board's Egg Nutrition Center, which also part-funded a 2024 study linking eggs to less Alzheimer's disease.`,
+      src: [SRC.eggUniSA, SRC.eggAlz, S('ScienceAlert, 2025', 'https://sciencealert.com/eating-eggs-can-actually-lower-bad-cholesterol-new-study-says')] }
   ];
 
   // ── Lab: funding effect ────────────────────────────────────────
