@@ -1,0 +1,1066 @@
+[
+  {
+    "id": "harvard",
+    "year": 1967,
+    "foods": [
+      "Sugar"
+    ],
+    "who": "Sugar Research Foundation",
+    "where": "US",
+    "tactic": "Pay for friendly science",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "Sugar industry paid Harvard scientists to point at fat",
+    "description": "The Sugar Research Foundation paid three Harvard nutritionists about US$6,500 (roughly US$50,000 today) for a 1967 NEJM review that played down sugar's role in heart disease and blamed fat. It set the review's goal and saw drafts. The funding wasn't disclosed. Internal documents surfaced in 2016.",
+    "sources": [
+      {
+        "label": "Kearns, Schmidt & Glantz, JAMA Intern Med 2016",
+        "url": "https://doi.org/10.1001/jamainternmed.2016.5394"
+      }
+    ]
+  },
+  {
+    "id": "p259",
+    "year": 1970,
+    "foods": [
+      "Sugar"
+    ],
+    "who": "Sugar Research Foundation",
+    "where": "US",
+    "tactic": "Bury what doesn’t help",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "\"Project 259\": rat study shut down when results looked bad",
+    "description": "An industry-funded study found early signs that sugar raised blood fats and an enzyme linked to bladder cancer, compared with starch. The industry stopped funding it before it finished, and the results were never published.",
+    "sources": [
+      {
+        "label": "Kearns et al., PLOS Biology 2017",
+        "url": "https://doi.org/10.1371/journal.pbio.2003460"
+      }
+    ]
+  },
+  {
+    "id": "caries",
+    "year": 1971,
+    "foods": [
+      "Sugar"
+    ],
+    "who": "Sugar industry",
+    "where": "US",
+    "tactic": "Lean on the rule-makers",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "Sugar industry steered the US tooth-decay research program",
+    "description": "Instead of cutting sugar, the US National Caries Program focused on vaccines and enzymes to break up plaque. 78% of a sugar-industry report was carried directly into the program's first call for research.",
+    "sources": [
+      {
+        "label": "Kearns, Glantz & Schmidt, PLOS Medicine 2015",
+        "url": "https://doi.org/10.1371/journal.pmed.1001798"
+      }
+    ]
+  },
+  {
+    "id": "minnesota",
+    "year": 1973,
+    "foods": [
+      "Seed oils",
+      "Butter & saturated fat"
+    ],
+    "who": "University researchers",
+    "where": "US",
+    "tactic": "Bury what doesn’t help",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "Big diet trial left unpublished for 40 years",
+    "description": "The Minnesota Coronary Experiment (9,423 people, 1968–73) swapped saturated fat for corn oil. Cholesterol fell, but deaths didn't: each 30 mg/dL fall in cholesterol came with a 22% higher risk of death, and the oil group did worse among people over 65. The full results stayed in a basement until 2016. Seed-oil critics cite it; others note the short follow-up and the margarines used.",
+    "sources": [
+      {
+        "label": "Ramsden et al., BMJ 2016",
+        "url": "https://doi.org/10.1136/bmj.i1246"
+      }
+    ]
+  },
+  {
+    "id": "sydney",
+    "year": 1973,
+    "foods": [
+      "Seed oils",
+      "Butter & saturated fat"
+    ],
+    "who": "Sydney Diet Heart Study",
+    "where": "Australia",
+    "tactic": "Bury what doesn’t help",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "Sydney trial recovered: safflower-oil group died more",
+    "description": "In the Sydney Diet Heart Study (1966–73), men told to swap saturated fat for safflower oil and margarine had higher death rates (17.6% v 11.8%). The full data were only recovered and published in 2013. The trial margarine may have contained trans fats, which muddies the result.",
+    "sources": [
+      {
+        "label": "Ramsden et al., BMJ 2013",
+        "url": "https://doi.org/10.1136/bmj.e8707"
+      }
+    ]
+  },
+  {
+    "id": "nestle77",
+    "year": 1977,
+    "foods": [
+      "Baby formula"
+    ],
+    "who": "Nestlé",
+    "where": "Global",
+    "tactic": "Target children and parents",
+    "status": "policy",
+    "usd_millions": null,
+    "title": "Nestlé boycott over baby-formula marketing in poor countries",
+    "description": "Campaigners accused formula makers of promoting formula where clean water was scarce, with \"milk nurses\" in hospitals and free samples. The boycott led to the 1981 WHO International Code of Marketing of Breast-milk Substitutes.",
+    "sources": [
+      {
+        "label": "Nestlé boycott (overview)",
+        "url": "https://en.wikipedia.org/wiki/1977_Nestl%C3%A9_boycott"
+      },
+      {
+        "label": "Lancet series on breastfeeding and formula marketing, 2023",
+        "url": "https://www.thelancet.com/series/Breastfeeding-2023"
+      }
+    ]
+  },
+  {
+    "id": "who03",
+    "year": 2003,
+    "foods": [
+      "Sugar"
+    ],
+    "who": "US Sugar Association",
+    "where": "Global",
+    "tactic": "Lean on the rule-makers",
+    "status": "policy",
+    "usd_millions": null,
+    "title": "Sugar lobby threatened the WHO’s funding over a 10% limit",
+    "description": "When a WHO/FAO report suggested free sugars should be under 10% of energy, the US Sugar Association wrote to the WHO's head threatening to press Congress to cut the WHO's US funding. The WHO kept the advice and strengthened it in 2015.",
+    "sources": [
+      {
+        "label": "Mother Jones, 2004",
+        "url": "https://www.motherjones.com/politics/2004/05/eating-away-science/"
+      },
+      {
+        "label": "Int J Health Serv 2004",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14758862/"
+      }
+    ]
+  },
+  {
+    "id": "tick",
+    "year": 2007,
+    "foods": [
+      "Ultra-processed food",
+      "Cereal & \"healthy\" snacks"
+    ],
+    "who": "Heart Foundation / McDonald’s",
+    "where": "Australia",
+    "tactic": "Health halos and false claims",
+    "status": "policy",
+    "usd_millions": null,
+    "title": "The Heart Foundation Tick on McDonald’s meals",
+    "description": "In 2007 nine McDonald's meals carried the Heart Foundation Tick, a licence McDonald's reportedly paid about A$330,000 a year for. The AMA asked whether the Tick had been \"hamburgled\". The Heart Foundation decided to retire the Tick in December 2015.",
+    "sources": [
+      {
+        "label": "AMA, 2007",
+        "url": "https://ama.com.au/media/has-national-heart-foundation-tick-been-hamburgled"
+      },
+      {
+        "label": "The Conversation",
+        "url": "https://theconversation.com/fast-food-loses-tick-but-can-the-heart-foundation-regain-its-credibility-3475"
+      },
+      {
+        "label": "Australian Food News, 2016",
+        "url": "https://www.ausfoodnews.com.au/2016/10/19/new-zealand-also-decides-to-axe-the-healthy-heart-tick.html"
+      }
+    ]
+  },
+  {
+    "id": "dairyftc",
+    "year": 2007,
+    "foods": [
+      "Milk & dairy"
+    ],
+    "who": "US dairy promotion boards",
+    "where": "US",
+    "tactic": "Health halos and false claims",
+    "status": "ruled",
+    "usd_millions": null,
+    "title": "\"Milk your diet\": weight-loss ads stopped",
+    "description": "US dairy promotion programs, overseen by the Department of Agriculture, claimed three serves a day helped people lose weight, citing small studies by a dairy-funded researcher who held a patent on the idea. After a complaint, the FTC told them in 2007 to stop until stronger evidence emerged. The 2010 US guidelines said dairy plays no special role in weight.",
+    "sources": [
+      {
+        "label": "DairyReporter, 2007",
+        "url": "https://www.dairyreporter.com/Article/2007/05/16/Doctors-halt-dairy-weight-loss-ads"
+      },
+      {
+        "label": "Wisconsin Watch, 2011",
+        "url": "https://wisconsinwatch.org/2011/10/wisconsin-milk-board-claims-dairy-aids-weight-loss/"
+      }
+    ]
+  },
+  {
+    "id": "melamine",
+    "year": 2008,
+    "foods": [
+      "Baby formula",
+      "Milk & dairy"
+    ],
+    "who": "Sanlu (43% owned by Fonterra)",
+    "where": "China",
+    "tactic": "Cheat the customer",
+    "status": "fined",
+    "usd_millions": null,
+    "title": "Melamine in baby milk: 300,000 babies sick, six dead",
+    "description": "Suppliers added melamine to watered-down milk to fake protein tests. Sanlu, part-owned by New Zealand's Fonterra, sold contaminated formula for months. About 300,000 babies were made ill, mostly with kidney stones, and six died. Two people were executed and Sanlu's chair was jailed for life.",
+    "sources": [
+      {
+        "label": "2008 Chinese milk scandal (overview)",
+        "url": "https://en.wikipedia.org/wiki/2008_Chinese_milk_scandal"
+      }
+    ]
+  },
+  {
+    "id": "kellogg",
+    "year": 2009,
+    "foods": [
+      "Cereal & \"healthy\" snacks"
+    ],
+    "who": "Kellogg",
+    "where": "US",
+    "tactic": "Health halos and false claims",
+    "status": "settled",
+    "usd_millions": 13.25,
+    "title": "Frosted Mini-Wheats \"improve attentiveness by nearly 20%\"",
+    "description": "The FTC found the claim false: Kellogg's own study didn't show it. A year later, while under that order, Kellogg claimed Rice Krispies \"now helps support your child's immunity\", and the order was widened. Class actions followed: US$2.75m to consumers plus US$5.5m to charity for Mini-Wheats, and US$5m over Rice Krispies.",
+    "sources": [
+      {
+        "label": "FTC",
+        "url": "https://www.ftc.gov/node/47083"
+      },
+      {
+        "label": "NutraIngredients, 2011",
+        "url": "https://www.nutraingredients.com/Article/2011/01/13/Kellogg-s-to-pay-5m-for-false-Rice-Krispies-immunity-claims/"
+      },
+      {
+        "label": "FoodNavigator, 2010",
+        "url": "https://www.foodnavigator.com/Article/2010/11/22/Kellogg-to-pay-millions-in-kids-attention-class-action-settlement/"
+      }
+    ]
+  },
+  {
+    "id": "vitaminwater",
+    "year": 2010,
+    "foods": [
+      "Soft drinks"
+    ],
+    "who": "Coca-Cola (vitaminwater)",
+    "where": "US",
+    "tactic": "Health halos and false claims",
+    "status": "ruled",
+    "usd_millions": null,
+    "title": "\"No consumer could reasonably be misled into thinking vitaminwater was a healthy beverage\"",
+    "description": "That was Coca-Cola's own lawyers' defence when sued over vitaminwater's health claims (\"vitamins + water = all you need\"). A federal judge refused to dismiss the case in 2010, citing the potential to confuse buyers.",
+    "sources": [
+      {
+        "label": "Bloomberg, 2013",
+        "url": "https://www.bloomberg.com/news/articles/2013-07-26/drink-deception-and-the-legal-war-on-vitaminwater"
+      },
+      {
+        "label": "IPKat, 2010",
+        "url": "https://ipkitten.blogspot.com/2010/08/what-no-consumer-could-reasonably.html"
+      }
+    ]
+  },
+  {
+    "id": "paradox",
+    "year": 2011,
+    "foods": [
+      "Sugar"
+    ],
+    "who": "University of Sydney researchers",
+    "where": "Australia",
+    "tactic": "Junk science and p-hacking",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "The \"Australian Paradox\": sugar down, obesity up?",
+    "description": "A 2011 paper argued that Australians were eating less sugar even as obesity rose, a claim welcomed by the sugar industry. Critics, notably the economist Rory Robertson, showed the data didn't support it. The authors published corrections but stood by their conclusion. The journal's editor complained of an \"internet campaign\".",
+    "sources": [
+      {
+        "label": "Barclay & Brand-Miller, Nutrients 2011",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3257697/"
+      },
+      {
+        "label": "Editorial, Nutrients 2012",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3347006/"
+      },
+      {
+        "label": "Rikkers et al., BMC Public Health 2013",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927236/"
+      }
+    ]
+  },
+  {
+    "id": "das",
+    "year": 2012,
+    "foods": [
+      "Alcohol"
+    ],
+    "who": "Dipak Das, University of Connecticut",
+    "where": "US",
+    "tactic": "Junk science and p-hacking",
+    "status": "retracted",
+    "usd_millions": null,
+    "title": "Red-wine \"resveratrol\" researcher faked data",
+    "description": "A three-year university investigation found the resveratrol researcher Dipak Das responsible for 145 counts of fabricating and falsifying data across at least 23 papers. His work had fed the \"red wine is good for your heart\" story.",
+    "sources": [
+      {
+        "label": "Retraction Watch, 2012",
+        "url": "https://retractionwatch.com/2012/01/11/uconn-resveratrol-researcher-dipak-das-fingered-in-sweeping-misconduct-case/"
+      }
+    ]
+  },
+  {
+    "id": "horse",
+    "year": 2013,
+    "foods": [
+      "Red & processed meat"
+    ],
+    "who": "European meat supply chain",
+    "where": "Europe",
+    "tactic": "Cheat the customer",
+    "status": "fined",
+    "usd_millions": null,
+    "title": "Horsemeat sold as beef across Europe",
+    "description": "Irish food testers found horse DNA in supermarket beef burgers; then it turned up in frozen lasagne and ready meals across Europe. Long, opaque supply chains let traders relabel cheap horse as beef. A Dutch meat trader was jailed in 2015.",
+    "sources": [
+      {
+        "label": "2013 horse meat scandal (overview)",
+        "url": "https://en.wikipedia.org/wiki/2013_horse_meat_scandal"
+      }
+    ]
+  },
+  {
+    "id": "redbull",
+    "year": 2014,
+    "foods": [
+      "Soft drinks"
+    ],
+    "who": "Red Bull",
+    "where": "US",
+    "tactic": "Health halos and false claims",
+    "status": "settled",
+    "usd_millions": 13,
+    "title": "\"Red Bull gives you wings\": US$13 million settlement",
+    "description": "A class action said Red Bull's claims of better performance and concentration were no better than a cup of coffee. Red Bull settled for US$13 million without admitting wrongdoing.",
+    "sources": [
+      {
+        "label": "NBC News, 2014",
+        "url": "https://www.nbcnews.com/news/amp/ncna221901"
+      },
+      {
+        "label": "Daily Signal, 2014",
+        "url": "https://dailysignal.com/2014/10/11/red-bull-settles-false-advertising-lawsuit-13-million-actually-doesnt-give-wings/amp"
+      }
+    ]
+  },
+  {
+    "id": "gebn",
+    "year": 2015,
+    "foods": [
+      "Soft drinks"
+    ],
+    "who": "Coca-Cola",
+    "where": "US",
+    "tactic": "Shift the blame",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "Coca-Cola funded scientists who blamed obesity on lack of exercise",
+    "description": "The Global Energy Balance Network told the public that exercise mattered more than diet for weight. Coca-Cola had given US$1.5 million to start it, including US$1 million to the University of Colorado, and reporting showed company executives helped pick its leaders and shape its message. It closed within months of the New York Times story.",
+    "sources": [
+      {
+        "label": "CNN Money, 2015",
+        "url": "https://money.cnn.com/2015/08/10/news/companies/coke-calories/index.html"
+      },
+      {
+        "label": "Medical Republic",
+        "url": "https://www.medicalrepublic.com.au/inside-cokes-covert-operation-obesity/1734"
+      }
+    ]
+  },
+  {
+    "id": "justmayo",
+    "year": 2015,
+    "foods": [
+      "Eggs"
+    ],
+    "who": "American Egg Board",
+    "where": "US",
+    "tactic": "Lean on the rule-makers",
+    "status": "ruled",
+    "usd_millions": null,
+    "title": "Egg Board’s campaign against an eggless mayo",
+    "description": "Emails showed the American Egg Board, a government-overseen \"checkoff\" program funded by producer levies, working to undermine Just Mayo, a plant-based spread, including joking about a \"hit\". Its CEO left early. A 2016 USDA review found \"inappropriate conduct\" but no breach of the law.",
+    "sources": [
+      {
+        "label": "Agri-Pulse, 2016",
+        "url": "https://www.agri-pulse.com/articles/7576-ams-finds-inappropriate-conduct-but-no-violations-at-american-egg-board/amp"
+      },
+      {
+        "label": "TechCrunch, 2015",
+        "url": "https://techcrunch.com/2015/10/26/the-american-egg-board-may-have-used-public-funds-to-conspire-against-hampton-creek"
+      }
+    ]
+  },
+  {
+    "id": "pom",
+    "year": 2015,
+    "foods": [
+      "Fruit juice"
+    ],
+    "who": "POM Wonderful",
+    "where": "US",
+    "tactic": "Health halos and false claims",
+    "status": "ruled",
+    "usd_millions": null,
+    "title": "Pomegranate juice \"treats\" heart disease, prostate cancer and impotence",
+    "description": "The FTC found POM's ads falsely claimed its juice could treat or prevent heart disease, prostate cancer and erectile dysfunction, and was \"clinically proven\". The appeals court upheld the finding in 2015, noting POM had trumpeted favourable studies and left out unfavourable ones.",
+    "sources": [
+      {
+        "label": "FTC statement, 2015",
+        "url": "https://www.ftc.gov/news-events/press-releases/2015/01/statement-ftc-chairwoman-edith-ramirez-appellate-ruling-pom"
+      },
+      {
+        "label": "CSPI",
+        "url": "https://www.cspinet.org/article/pom-chronicles"
+      }
+    ]
+  },
+  {
+    "id": "chocolate",
+    "year": 2015,
+    "foods": [
+      "Ultra-processed food"
+    ],
+    "who": "A science journalist (deliberate hoax)",
+    "where": "Germany",
+    "tactic": "Junk science and p-hacking",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "The chocolate weight-loss hoax",
+    "description": "To show how easily junk science spreads, journalist John Bohannon ran a real but tiny trial (15 people) measuring 18 outcomes. By chance, \"chocolate helps weight loss\" came out significant. It was published and reported around the world. Try it in the lab section below.",
+    "sources": [
+      {
+        "label": "Bohannon, io9/Gizmodo 2015",
+        "url": "https://gizmodo.com/i-fooled-millions-into-thinking-chocolate-helps-weight-1707251800"
+      }
+    ]
+  },
+  {
+    "id": "iarc",
+    "year": 2015,
+    "foods": [
+      "Red & processed meat"
+    ],
+    "who": "North American Meat Institute",
+    "where": "Global",
+    "tactic": "Manufacture doubt",
+    "status": "policy",
+    "usd_millions": null,
+    "title": "Processed meat declared a cause of cancer; industry calls it \"alarmist\"",
+    "description": "IARC (the WHO's cancer agency) classified processed meat as a cause of bowel cancer and red meat as a probable cause. The meat industry called it \"dramatic and alarmist overreach\" and stressed that bacon isn't as bad as smoking, which is true, though IARC never said it was.",
+    "sources": [
+      {
+        "label": "Bouvard et al. (IARC), Lancet Oncology 2015",
+        "url": "https://doi.org/10.1016/S1470-2045(15)00444-1"
+      },
+      {
+        "label": "BBC News, 2015",
+        "url": "https://www.bbc.com/news/health-34615621"
+      }
+    ]
+  },
+  {
+    "id": "eggs-accc",
+    "year": 2016,
+    "foods": [
+      "Eggs"
+    ],
+    "who": "Pirovic, R.L. Adams, Snowdale",
+    "where": "Australia",
+    "tactic": "Cheat the customer",
+    "status": "fined",
+    "usd_millions": 1,
+    "title": "\"Free range\" eggs from hens that didn’t range",
+    "description": "The ACCC won Federal Court penalties against several egg producers whose \"free range\" hens rarely or never went outside: Pirovic A$300,000 (2014), R.L. Adams A$250,000 (2015) and Snowdale A$750,000 (2016–17). The 2017 national standard then defined free range as up to 10,000 hens per hectare. Consumer groups said that was far too many.",
+    "sources": [
+      {
+        "label": "Food Processing, 2016",
+        "url": "https://foodprocessing.com.au/content/business-solutions/news/fines-for-fake-free-range-claims-aren-t-poultry-280745028"
+      },
+      {
+        "label": "Federal Court, 2017",
+        "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2017/2017fca0834"
+      }
+    ]
+  },
+  {
+    "id": "aaron",
+    "year": 2016,
+    "foods": [
+      "Soft drinks"
+    ],
+    "who": "Coca-Cola and PepsiCo",
+    "where": "US",
+    "tactic": "Front groups",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "Soda giants sponsored 95 health groups while lobbying against health laws",
+    "description": "From 2011 to 2015, Coca-Cola and PepsiCo sponsored 95 US national health organisations, including leading medical and public health groups, while lobbying against public health bills aimed at cutting soda consumption.",
+    "sources": [
+      {
+        "label": "Aaron & Siegel, Am J Prev Med 2017",
+        "url": "https://doi.org/10.1016/j.amepre.2016.08.010"
+      }
+    ]
+  },
+  {
+    "id": "milo",
+    "year": 2016,
+    "foods": [
+      "Cereal & \"healthy\" snacks"
+    ],
+    "who": "Nestlé (Milo)",
+    "where": "Australia",
+    "tactic": "Health halos and false claims",
+    "status": "policy",
+    "usd_millions": null,
+    "title": "Milo’s 4.5 Health Stars, \"as prepared\" with skim milk",
+    "description": "Health Star rules let Nestlé rate Milo as if mixed with skim milk, earning 4.5 stars; the powder alone scored 1.5. A CHOICE survey found only 13% of people drank it with skim. CHOICE gave it a Shonky award in 2016, and Nestlé dropped the 4.5 stars in 2018.",
+    "sources": [
+      {
+        "label": "CHOICE Shonky, 2016",
+        "url": "https://www.choice.com.au/shonky-awards/hall-of-shame/shonkys-2016/nestle-milo"
+      },
+      {
+        "label": "Food & Drink Business, 2018",
+        "url": "https://www.foodanddrinkbusiness.com.au/news/nestle-pulls-4-5-health-star-rating-from-milo-tins"
+      }
+    ]
+  },
+  {
+    "id": "ilsi-sugar",
+    "year": 2016,
+    "foods": [
+      "Sugar"
+    ],
+    "who": "ILSI North America",
+    "where": "US",
+    "tactic": "Manufacture doubt",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "Industry-funded review: sugar guidelines are \"based on weak evidence\"",
+    "description": "A review in the Annals of Internal Medicine concluded that advice to limit sugar couldn't be trusted. It was funded by ILSI North America, whose members included Coca-Cola, PepsiCo and Hershey. Critics called it a textbook case of manufacturing doubt.",
+    "sources": [
+      {
+        "label": "Erickson et al., Ann Intern Med 2017",
+        "url": "https://doi.org/10.7326/M16-2020"
+      }
+    ]
+  },
+  {
+    "id": "drinkwise",
+    "year": 2017,
+    "foods": [
+      "Alcohol"
+    ],
+    "who": "DrinkWise (alcohol industry funded)",
+    "where": "Australia",
+    "tactic": "Front groups",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "DrinkWise: \"drink responsibly\", blame the parents",
+    "description": "Researchers who analysed 54 DrinkWise media releases found they blamed parents and \"culture\" and never backed proven policies like price or advertising limits. A 2020 trial found its ads left drinkers less motivated to cut down than health-agency ads.",
+    "sources": [
+      {
+        "label": "Movendi summary, 2017",
+        "url": "https://movendi.ngo/policy-updates/2017/03/26/researchers-raise-doubts-drinkwise/"
+      },
+      {
+        "label": "Cancer Council Victoria, 2020",
+        "url": "https://cancervic.org.au/about/media-releases/2020-media-releases/september-2020/new-study-show-alcohol-ads-undermine-health-msg.html"
+      }
+    ]
+  },
+  {
+    "id": "yukon",
+    "year": 2017,
+    "foods": [
+      "Alcohol"
+    ],
+    "who": "Canadian alcohol industry",
+    "where": "Canada",
+    "tactic": "Fight taxes and labels",
+    "status": "policy",
+    "usd_millions": null,
+    "title": "Cancer warning labels pulled from Yukon liquor stores",
+    "description": "Researchers put \"alcohol can cause cancer\" labels on bottles in Yukon's government liquor stores. Within weeks the industry raised legal objections, and the cancer label was paused. The study continued without it.",
+    "sources": [
+      {
+        "label": "Hobin et al., J Stud Alcohol Drugs 2020",
+        "url": "https://doi.org/10.15288/jsad.2020.81.249"
+      }
+    ]
+  },
+  {
+    "id": "carnefraca",
+    "year": 2017,
+    "foods": [
+      "Red & processed meat"
+    ],
+    "who": "JBS, BRF and others",
+    "where": "Brazil",
+    "tactic": "Cheat the customer",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "\"Operation Weak Flesh\": bribed inspectors, rotten meat",
+    "description": "Brazilian police alleged meatpackers bribed inspectors to approve spoiled and mislabelled meat. Several countries briefly suspended imports.",
+    "sources": [
+      {
+        "label": "Operation Weak Flesh (overview)",
+        "url": "https://en.wikipedia.org/wiki/Operation_Weak_Flesh"
+      }
+    ]
+  },
+  {
+    "id": "shredz",
+    "year": 2018,
+    "foods": [
+      "Cereal & \"healthy\" snacks",
+      "Sugar"
+    ],
+    "who": "H.J. Heinz Australia",
+    "where": "Australia",
+    "tactic": "Target children and parents",
+    "status": "fined",
+    "usd_millions": 1.7,
+    "title": "Heinz toddler snacks: \"nutritious\", and about two-thirds sugar",
+    "description": "Heinz Little Kids Shredz were sold for 1–3-year-olds with fruit-and-vegetable imagery and health claims, but were up to 68% sugar. The Federal Court fined Heinz A$2.25 million (the ACCC had sought A$10 million).",
+    "sources": [
+      {
+        "label": "Clayton Utz, 2018",
+        "url": "https://www.claytonutz.com/insights/2018/august/sweet-little-lies-heinz-fined-2-25m-for-misleading-claims-on-little-kids-shredz-packaging"
+      }
+    ]
+  },
+  {
+    "id": "mach",
+    "year": 2018,
+    "foods": [
+      "Alcohol"
+    ],
+    "who": "AB InBev, Heineken, Diageo, Pernod Ricard, Carlsberg",
+    "where": "US",
+    "tactic": "Pay for friendly science",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "US$100m \"drink a day\" trial, two-thirds paid for by alcohol companies",
+    "description": "US NIH officials courted the alcohol industry to fund about US$67 million of a trial designed to test whether a drink a day prevents heart disease, too short to pick up cancer. When it came out, NIH shut it down in 2018, saying the industry contact \"calls into question the impartiality\" of the process.",
+    "sources": [
+      {
+        "label": "Scientific American, 2018",
+        "url": "https://www.scientificamerican.com/article/controversial-alcohol-study-cancelled-by-u-s-health-agency/"
+      },
+      {
+        "label": "Union of Concerned Scientists",
+        "url": "https://www.ucs.org/resources/alcohol-industry-funds-government-study"
+      }
+    ]
+  },
+  {
+    "id": "wansink",
+    "year": 2018,
+    "foods": [
+      "Ultra-processed food"
+    ],
+    "who": "Brian Wansink, Cornell University",
+    "where": "US",
+    "tactic": "Junk science and p-hacking",
+    "status": "retracted",
+    "usd_millions": null,
+    "title": "The \"bottomless soup bowl\" professor and his p-hacking",
+    "description": "Wansink's catchy findings about portion size and plates shaped US school-lunch policy. Then he blogged about asking a student to keep re-analysing a \"failed\" study until something worked. Cornell found academic misconduct; 18 papers were retracted, and he resigned in 2019.",
+    "sources": [
+      {
+        "label": "Brian Wansink (overview)",
+        "url": "https://en.wikipedia.org/wiki/Brian_Wansink"
+      }
+    ]
+  },
+  {
+    "id": "ilsi-china",
+    "year": 2019,
+    "foods": [
+      "Soft drinks",
+      "Ultra-processed food"
+    ],
+    "who": "ILSI (founded by a Coca-Cola executive)",
+    "where": "China",
+    "tactic": "Front groups",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "How a Coke-backed institute shaped China’s obesity policy",
+    "description": "ILSI's China branch operated from inside China's government disease-control agency and steered obesity policy toward exercise rather than diet or soft-drink taxes.",
+    "sources": [
+      {
+        "label": "Greenhalgh, BMJ 2019",
+        "url": "https://doi.org/10.1136/bmj.l485"
+      }
+    ]
+  },
+  {
+    "id": "nutrirecs",
+    "year": 2019,
+    "foods": [
+      "Red & processed meat"
+    ],
+    "who": "NutriRECS panel",
+    "where": "Global",
+    "tactic": "Manufacture doubt",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "\"Keep eating red meat\" guidance, and an undisclosed sugar-industry link",
+    "description": "A guideline in the Annals of Internal Medicine told adults to continue current red and processed meat intake, contradicting most health bodies. Its lead author hadn't disclosed his senior role in the ILSI-funded sugar review (above) a few years before. The authors said the meat work had no industry funding.",
+    "sources": [
+      {
+        "label": "Johnston et al., Ann Intern Med 2019",
+        "url": "https://doi.org/10.7326/M19-1621"
+      }
+    ]
+  },
+  {
+    "id": "eggfund",
+    "year": 2019,
+    "foods": [
+      "Eggs"
+    ],
+    "who": "Egg industry (analysis by PCRM)",
+    "where": "US",
+    "tactic": "Pay for friendly science",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "Egg-funded studies: same data, rosier conclusions",
+    "description": "A review of 153 egg–cholesterol studies found that over 85% showed eggs raise blood cholesterol, whoever paid. But 49% of industry-funded trials wrote conclusions that didn't match their own results, against 13% of independent ones. The authors work for a vegan advocacy group.",
+    "sources": [
+      {
+        "label": "Barnard et al., Am J Lifestyle Med 2019",
+        "url": "https://hsrc.himmelfarb.gwu.edu/smhs_medicine_facpubs/3446"
+      }
+    ]
+  },
+  {
+    "id": "pregnancy",
+    "year": 2020,
+    "foods": [
+      "Alcohol"
+    ],
+    "who": "Australian alcohol industry",
+    "where": "Australia",
+    "tactic": "Fight taxes and labels",
+    "status": "policy",
+    "usd_millions": null,
+    "title": "The fight over a red pregnancy warning",
+    "description": "After years of voluntary DrinkWise labels, ministers backed a compulsory pregnancy warning. Industry lobbied against the red colour as too costly; ministers sent it back for review, but FSANZ kept the red and changed the heading to \"PREGNANCY WARNING\". It became mandatory in 2023.",
+    "sources": [
+      {
+        "label": "FoodNavigator, 2020",
+        "url": "https://www.foodnavigator.com/Article/2020/07/08/Seeing-red-Australian-alcohol-industry-lauds-pregnancy-warning-change-but-slams-coloured-labels-rule/"
+      },
+      {
+        "label": "Movendi, 2020",
+        "url": "https://movendi.ngo/policy-updates/2020/07/02/australia-regulator-revises-alcohol-pregnancy-warning/"
+      }
+    ]
+  },
+  {
+    "id": "jbs",
+    "year": 2020,
+    "foods": [
+      "Red & processed meat"
+    ],
+    "who": "J&F Investimentos (owner of JBS)",
+    "where": "US / Brazil",
+    "tactic": "Cheat the customer",
+    "status": "fined",
+    "usd_millions": 155,
+    "title": "JBS owner pleads guilty to foreign bribery",
+    "description": "The parent of JBS, the world's biggest meat company, pleaded guilty in the US to bribery that helped fund its 2009 takeover of Pilgrim's Pride. It paid a US$128 million criminal fine (after credit for a US$3.2 billion Brazilian settlement), and JBS paid about US$27 million to the SEC.",
+    "sources": [
+      {
+        "label": "SEC, 2020",
+        "url": "https://www.sec.gov/news/press-release/2020-254"
+      }
+    ]
+  },
+  {
+    "id": "pilgrims",
+    "year": 2020,
+    "foods": [
+      "Red & processed meat"
+    ],
+    "who": "Pilgrim’s Pride",
+    "where": "US",
+    "tactic": "Cheat the customer",
+    "status": "fined",
+    "usd_millions": 107.9,
+    "title": "Chicken price-fixing guilty plea",
+    "description": "Pilgrim's Pride, majority-owned by JBS, pleaded guilty to fixing prices and rigging bids for chicken sold for KFC restaurants from 2012 to 2017. Fine: US$107.9 million.",
+    "sources": [
+      {
+        "label": "US Department of Justice, 2020",
+        "url": "https://www.justice.gov/archives/opa/pr/one-nation-s-largest-chicken-producers-pleads-guilty-price-fixing-and-sentenced-107-million"
+      }
+    ]
+  },
+  {
+    "id": "abbott22",
+    "year": 2022,
+    "foods": [
+      "Baby formula"
+    ],
+    "who": "Abbott",
+    "where": "US",
+    "tactic": "Cheat the customer",
+    "status": "ruled",
+    "usd_millions": null,
+    "title": "Contaminated formula plant and a national shortage",
+    "description": "After infants fell ill with Cronobacter infections, Abbott recalled formula and shut its Sturgis, Michigan plant, where FDA inspectors found bacteria and unsanitary conditions. It triggered a US shortage, and Abbott signed a consent decree with the Justice Department.",
+    "sources": [
+      {
+        "label": "2022 US infant formula shortage (overview)",
+        "url": "https://en.wikipedia.org/wiki/2022_United_States_infant_formula_shortage"
+      }
+    ]
+  },
+  {
+    "id": "lancetform",
+    "year": 2023,
+    "foods": [
+      "Baby formula"
+    ],
+    "who": "Formula industry",
+    "where": "Global",
+    "tactic": "Target children and parents",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "Lancet: formula marketing \"exploits parents\"",
+    "description": "A Lancet series found the US$55 billion industry targets parents' worries about crying, sleep and development, uses unproven health claims, and lobbies against marketing rules.",
+    "sources": [
+      {
+        "label": "Lancet series on breastfeeding and formula marketing, 2023",
+        "url": "https://www.thelancet.com/series/Breastfeeding-2023"
+      }
+    ]
+  },
+  {
+    "id": "tobacco",
+    "year": 2023,
+    "foods": [
+      "Ultra-processed food"
+    ],
+    "who": "Philip Morris & R.J. Reynolds (when they owned Kraft, General Foods, Nabisco)",
+    "where": "US",
+    "tactic": "Manufacture doubt",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "Tobacco companies once owned America’s biggest food brands",
+    "description": "Philip Morris bought General Foods and Kraft, and R.J. Reynolds bought Nabisco, in the 1980s. A 2023 study found that foods from tobacco-owned companies were significantly more likely to be engineered \"hyper-palatable\" than other foods of the same era.",
+    "sources": [
+      {
+        "label": "Fazzino et al., Addiction 2023",
+        "url": "https://doi.org/10.1111/add.16332"
+      }
+    ]
+  },
+  {
+    "id": "eggfix",
+    "year": 2023,
+    "foods": [
+      "Eggs"
+    ],
+    "who": "Cal-Maine, Rose Acre, United Egg Producers, US Egg Marketers",
+    "where": "US",
+    "tactic": "Cheat the customer",
+    "status": "verdict",
+    "usd_millions": 53,
+    "title": "Egg producers found liable for price-fixing",
+    "description": "A Chicago jury found the biggest US egg producers had conspired to cut supply and lift prices in the 2000s. It awarded Kraft, Kellogg, General Mills and Nestlé US$17.7 million, which antitrust law triples to about US$53 million.",
+    "sources": [
+      {
+        "label": "The Poultry Site, 2023",
+        "url": "https://www.thepoultrysite.com/news/2023/12/us-jury-awards-17-7-million-in-egg-price-fixing-case"
+      }
+    ]
+  },
+  {
+    "id": "nec",
+    "year": 2024,
+    "foods": [
+      "Baby formula"
+    ],
+    "who": "Abbott, Mead Johnson",
+    "where": "US",
+    "tactic": "Target children and parents",
+    "status": "verdict",
+    "usd_millions": 555,
+    "title": "Juries blame preterm formula for a deadly bowel disease",
+    "description": "US juries ordered Mead Johnson to pay US$60 million (March 2024) and Abbott US$495 million (July 2024) over premature babies who developed necrotising enterocolitis after cow's-milk formula, finding the makers hadn't warned of the risk. Later trials went both ways, and appeals continue. The companies say their products are safe and medically necessary.",
+    "sources": [
+      {
+        "label": "Expert Institute, 2024",
+        "url": "https://expertinstitute.com/resources/insights/495-million-verdict-against-abbott-laboratories-for-disease-causing-baby-formula"
+      }
+    ]
+  },
+  {
+    "id": "ireland",
+    "year": 2025,
+    "foods": [
+      "Alcohol"
+    ],
+    "who": "Drinks Ireland and alcohol exporters",
+    "where": "Ireland",
+    "tactic": "Fight taxes and labels",
+    "status": "policy",
+    "usd_millions": null,
+    "title": "Ireland delays world-first alcohol cancer warnings to 2028",
+    "description": "Ireland legislated in 2018 for cancer warnings on alcohol, due in May 2026. In July 2025, after industry lobbying and US tariff fears, the government pushed them back to 2028.",
+    "sources": [
+      {
+        "label": "Decanter, 2025",
+        "url": "https://www.decanter.com/wine-news/ireland-delays-landmark-health-warnings-on-alcohol-561722"
+      },
+      {
+        "label": "Movendi, 2025",
+        "url": "https://movendi.ngo/policy-updates/2025/07/23/alcohol-cancer-warnings-delayed-ireland-prioritises-big-booze-interests-over-peoples-health-and-rights/"
+      }
+    ]
+  },
+  {
+    "id": "maha",
+    "year": 2025,
+    "foods": [
+      "Seed oils",
+      "Ultra-processed food"
+    ],
+    "who": "US \"Make America Healthy Again\" Commission",
+    "where": "US",
+    "tactic": "Junk science and p-hacking",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "Government health report cited studies that don’t exist",
+    "description": "The MAHA report on children's health, which attacked ultra-processed food and other targets, cited at least seven studies that didn't exist. The White House blamed \"formatting issues\" and quietly changed at least 18 citations. Bad science isn't only an industry problem.",
+    "sources": [
+      {
+        "label": "Columbia Law School climate centre",
+        "url": "https://climate.law.columbia.edu/content/maha-report-contains-numerous-errors-cites-nonexistent-studies"
+      },
+      {
+        "label": "ABC7 News, 2025",
+        "url": "https://abc7ny.com/post/maha-rfk-jrs-make-america-healthy-report-contained-nonexistent-studies/16590722/"
+      }
+    ]
+  },
+  {
+    "id": "sfsuit",
+    "year": 2025,
+    "foods": [
+      "Ultra-processed food"
+    ],
+    "who": "Kraft Heinz, Mondelez, Coca-Cola, PepsiCo, Nestlé USA, Kellogg, Mars + 3 more",
+    "where": "US",
+    "tactic": "Manufacture doubt",
+    "status": "open",
+    "usd_millions": null,
+    "title": "San Francisco sues ten ultra-processed food makers",
+    "description": "The city attorney filed the first government lawsuit treating UPF like tobacco, alleging the companies knew their products were addictive and harmful and marketed them anyway. A similar private suit in Pennsylvania was dismissed in 2025. The case is ongoing.",
+    "sources": [
+      {
+        "label": "SF City Attorney, Dec 2025",
+        "url": "https://sfcityattorney.org/san-francisco-city-attorney-chiu-sues-largest-manufacturers-of-ultra-processed-foods/"
+      }
+    ]
+  },
+  {
+    "id": "lancetupf",
+    "year": 2025,
+    "foods": [
+      "Ultra-processed food"
+    ],
+    "who": "UPF industry",
+    "where": "Global",
+    "tactic": "Lean on the rule-makers",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "Lancet series: 200 industry groups shaping food policy",
+    "description": "43 experts mapped about 200 interconnected industry groups and found voluntary \"partnership\" schemes in food policy grew from 1 in 1974 to 45 by 2023, more than half led by UPF companies. An industry alliance said the recommendations went \"far beyond the evidence\".",
+    "sources": [
+      {
+        "label": "Lancet series on ultra-processed food, Nov 2025 (CNN report)",
+        "url": "https://abc17news.com/cnn-health/2025/11/18/out-of-big-tobaccos-handbook-experts-say-ultraprocessed-food-manufacturers-profit-from-minimizing-health-harm/"
+      }
+    ]
+  },
+  {
+    "id": "nasem",
+    "year": 2026,
+    "foods": [
+      "Alcohol"
+    ],
+    "who": "US government",
+    "where": "US",
+    "tactic": "Lean on the rule-makers",
+    "status": "policy",
+    "usd_millions": null,
+    "title": "US dietary guidelines drop the \"two drinks\" limit",
+    "description": "Two federal reviews disagreed. A narrow National Academies review (23 studies) found moderate drinking linked to lower overall death; a larger interagency review found cancer risk starts with any drinking. The January 2026 guidelines dropped numeric limits for just \"consume less alcohol\". Brewers welcomed it; liver specialists objected.",
+    "sources": [
+      {
+        "label": "ODPHP (National Academies review)",
+        "url": "https://odphp.health.gov/news/202412/national-academies-publishes-findings-alcohol-and-health"
+      },
+      {
+        "label": "AASLD statement, 2026",
+        "url": "https://www.aasld.org/aasld-raises-concern-over-removal-evidence-based-alcohol-guidance-2025-2030-dietary-guidelines"
+      }
+    ]
+  },
+  {
+    "id": "hsr",
+    "year": 2026,
+    "foods": [
+      "Cereal & \"healthy\" snacks",
+      "Ultra-processed food"
+    ],
+    "who": "Australian food industry",
+    "where": "Australia",
+    "tactic": "Fight taxes and labels",
+    "status": "policy",
+    "usd_millions": null,
+    "title": "Health Star Rating: voluntary for 12 years, used on 39% of products",
+    "description": "Ministers set a 70% uptake target for the voluntary Health Star Rating. By November 2025 uptake was about 39%, below its 2019 peak, and makers tended to use it on their better-scoring products. In February 2026 ministers asked FSANZ to draft a compulsory standard, which could take until 2029.",
+    "sources": [
+      {
+        "label": "HSR uptake report, Nov 2025",
+        "url": "https://www.healthstarrating.gov.au/sites/default/files/2026-02/Uptake%20of%20the%20Health%20Star%20Rating%20system%20as%20at%20November%202025.pdf"
+      },
+      {
+        "label": "Medical Republic, 2026",
+        "url": "https://www.medicalrepublic.com.au/health-star-ratings-to-become-mandated-but-what-does-it-all-mean/123331"
+      }
+    ]
+  }
+]

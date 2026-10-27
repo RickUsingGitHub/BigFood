@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Big Food on Trial</title>
+  <meta name="description" content="What the science really says about sugar, soft drinks, juice, sweeteners, ultra-processed food, alcohol, meat, eggs, milk, seed oils and salt, and who has been paying to muddy the answer. Interactive, with every claim sourced.">
+  <meta name="theme-color" content="#b54708">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Big Food on Trial">
+  <meta property="og:description" content="Sugar, alcohol, meat, eggs, milk, seed oils, ultra-processed food: what the evidence says, and the spin, lobbying and dodgy science behind what we've been told.">
+  <meta property="og:url" content="https://rickusinggithub.github.io/BigFood/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='%23b54708'/%3E%3Ccircle cx='16' cy='16' r='8' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    try { var t = localStorage.getItem('bf-theme'); if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Big Food on Trial, home">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <circle cx="16" cy="16" r="13" fill="var(--accent)"/><circle cx="16" cy="16" r="8.5" fill="var(--page)"/>
+        <path d="M5 3v8M8 3v8M5 7h3M6.5 11v18" stroke="var(--ink)" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      <span>Big Food on Trial</span>
+    </a>
+    <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav" id="nav" aria-label="Sections">
+      <a href="#menu">The menu</a>
+      <a href="#evidence">Evidence</a>
+      <a href="#playbook">Playbook</a>
+      <a href="#lab">Lab</a>
+      <a href="#tryit">Try it</a>
+      <a href="#verdict">Verdict</a>
+      <a href="#cases">All cases</a>
+      <a href="#sources">Sources</a>
+    </nav>
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="top">
+    <div class="wrap">
+      <span class="kicker">An evidence file · 1967 – 2026</span>
+      <h1>Big Food <em>on trial</em></h1>
+      <p class="deck">Sugar, soft drinks, juice, sweeteners, ultra-processed food, alcohol, meat, eggs, milk, seed oils and salt. What does the best science actually say about them today? And who has spent the last sixty years paying for studies, front groups and lobbyists to muddy the answer?</p>
+
+      <div class="hero-figure">
+        <div class="label">The short version</div>
+        <div class="value" style="font-size:clamp(1.3rem,3.2vw,2rem);line-height:1.25">The boring advice was right. The companies spent decades and fortunes muddying it.</div>
+        <div class="note">Mostly plants, whole foods and water; go easy on sugary drinks, alcohol, processed meat and salt. Some old villains (eggs, coffee, seed oils) turned out fine. And some industry "facts" (sugar is harmless, a drink a day is good for you) were paid for.</div>
+      </div>
+
+      <div class="tiles" id="heroTiles"></div>
+
+      <div class="hero-cta">
+        <a class="btn primary" href="#menu">Check a food</a>
+        <a class="btn" href="#tryit">Count your sugar and drinks</a>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ═══════════════ MENU ═══════════════ -->
+  <section class="block" id="menu">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2><span class="num">01</span>The menu</h2>
+        <p>Fifteen foods and drinks. For each, what we were told, who said it, what the best current evidence says, and the dodgy history. Start with the gap between the two. Tap any row or card for the full file.</p>
+      </div>
+
+      <div class="chart-card reveal">
+        <div class="chart-head">
+          <div>
+            <div class="chart-title">The hype gap: what we were told v what the evidence says</div>
+            <div class="chart-sub">Hollow dot: the popular or industry claim. Solid dot: where the best current evidence lands. The longer the line, the bigger the spin.</div>
+          </div>
+          <div class="seg" role="group" aria-label="Sort foods">
+            <button aria-pressed="true" data-hsort="gap">Biggest gap</button>
+            <button aria-pressed="false" data-hsort="now">Worst for you</button>
+          </div>
+        </div>
+        <div class="legend" id="hypeLegend"></div>
+        <div class="chart" id="hypeChart"></div>
+        <p class="small muted">Positions are this site's summary of the sources in each food's file, on a five-point scale from "clearly harmful" to "clearly good for you" at typical intakes.</p>
+      </div>
+
+      <div class="chips" role="group" aria-label="Filter foods by verdict" id="foodFilters" style="margin-top:26px"></div>
+      <div class="foods" id="foods"></div>
+    </div>
+  </section>
+
+  <dialog class="sheet" id="sheet" aria-labelledby="sheetTitle">
+    <div class="sheet-inner">
+      <button class="icon-btn sheet-close" id="sheetClose" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <div id="sheetBody"></div>
+    </div>
+  </dialog>
+
+  <hr class="divider">
+
+  <!-- ═══════════════ EVIDENCE GRID ═══════════════ -->
+  <section class="block" id="evidence">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2><span class="num">02</span>The evidence grid</h2>
+        <p>What each food does to each outcome, at normal intakes, according to the strongest evidence available: trials where they exist, otherwise large reviews of cohort studies. Two "good guys" sit at the bottom for comparison. Tap a square for the detail.</p>
+      </div>
+      <div class="ev-legend" id="evLegend"></div>
+      <div class="grid-wrap reveal"><table class="ev" id="evGrid"></table></div>
+      <div class="card ev-note" id="evNote" aria-live="polite"><span class="muted">Tap any square to see what's behind it.</span></div>
+      <p class="small muted" id="evSources" style="margin-top:10px"></p>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ═══════════════ PLAYBOOK ═══════════════ -->
+  <section class="block" id="playbook">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2><span class="num">03</span>The playbook</h2>
+        <p>Sugar, soft drinks, meat, eggs, dairy, alcohol, formula: different industries, the same eleven moves. Many were learned from Big Tobacco, which owned some of the biggest food brands in the 1980s and 90s. Tap a card for the cases.</p>
+      </div>
+      <div class="chips" role="group" aria-label="Filter tactics" id="tacticFilters">
+        <button class="chip" aria-pressed="true" data-group="all">All 11</button>
+        <button class="chip" aria-pressed="false" data-group="science">Bending the science</button>
+        <button class="chip" aria-pressed="false" data-group="spin">Spin</button>
+        <button class="chip" aria-pressed="false" data-group="power">Power and lobbying</button>
+        <button class="chip" aria-pressed="false" data-group="money">Plain cheating</button>
+      </div>
+      <div class="tactics" id="tactics"></div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ═══════════════ LAB ═══════════════ -->
+  <section class="block" id="lab">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2><span class="num">04</span>The lab</h2>
+        <p>Nutrition science is unusually easy to bend. Studies are small, mostly observational, rarely registered in advance, and often paid for by someone who wants a particular answer. Below: what funding does to conclusions, a quiz, a p-hacking machine, and a translator for scary headlines.</p>
+      </div>
+
+      <div class="chart-card reveal">
+        <div class="chart-head">
+          <div>
+            <div class="chart-title">Follow the money: same questions, different answers</div>
+            <div class="chart-sub">Three studies of studies, each comparing research with and without industry money.</div>
+          </div>
+        </div>
+        <div class="legend" id="fundLegend"></div>
+        <div class="chart" id="fundChart"></div>
+        <div id="fundNotes" class="small muted"></div>
+      </div>
+
+      <div class="lab-grid" style="margin-top:16px">
+        <div class="card reveal" id="quizCard">
+          <span class="kicker">Quiz</span>
+          <h3>Who paid for it?</h3>
+          <p class="muted small">Ten real claims. Guess who was behind each one.</p>
+          <div class="quiz-q" id="quizQ" aria-live="polite"></div>
+          <div class="quiz-opts" id="quizOpts"></div>
+          <div class="quiz-why" id="quizWhy" hidden></div>
+          <div class="quiz-foot"><span id="quizScore"></span><button class="btn" id="quizNext" hidden>Next claim</button></div>
+        </div>
+
+        <div class="card reveal" id="chocCard">
+          <span class="kicker">Hands-on</span>
+          <h3>Make chocolate a diet food</h3>
+          <p class="muted small">In 2015 a journalist ran a real, tiny trial: 15 people, one group given dark chocolate, measuring 18 different things. Chocolate does nothing here: every result is pure chance. How many things do you need to measure before a "breakthrough" pops out?</p>
+          <div class="controls">
+            <div class="control">
+              <label for="nThings">Things measured</label><output id="nThingsOut">18</output>
+              <input type="range" id="nThings" min="1" max="30" value="18">
+            </div>
+          </div>
+          <div class="btn-row">
+            <button class="btn primary" id="chocRun">Run the study</button>
+            <button class="btn" id="chocMany">Run it 1,000 times</button>
+          </div>
+          <div class="headline" id="chocHead" aria-live="polite">
+            <div class="h-tag">Press release</div>
+            <div class="h-text">Press "Run the study".</div>
+          </div>
+          <div class="outcomes" id="chocOutcomes"></div>
+          <p class="small muted" id="chocOdds" style="margin-top:10px"></p>
+        </div>
+      </div>
+
+      <div class="card reveal" style="margin-top:16px" id="baconCard">
+        <span class="kicker">Headline translator</span>
+        <h3>"Bacon causes cancer": how worried should you be?</h3>
+        <p class="muted small">IARC says processed meat raises bowel cancer risk by 18% for every 50 g a day, about two slices of ham. That's a relative risk. Here it is in real people.</p>
+        <div class="grid-2" style="align-items:start">
+          <div>
+            <div class="controls">
+              <div class="control">
+                <label for="meatG">Processed meat, every day</label><output id="meatGOut">50 g</output>
+                <input type="range" id="meatG" min="0" max="150" step="10" value="50">
+              </div>
+              <div class="control">
+                <label for="baseRisk">Lifetime bowel cancer risk without it</label><output id="baseRiskOut">5 in 100</output>
+                <input type="range" id="baseRisk" min="2" max="10" step="1" value="5">
+              </div>
+            </div>
+            <div class="big-num" id="baconBig"></div>
+            <p id="baconText"></p>
+          </div>
+          <div>
+            <div class="legend" id="iconLegend"></div>
+            <div class="icons" id="icons" role="img" aria-label="Icon array of 100 people"></div>
+            <p class="small muted">About 1 in 20 Australians is diagnosed with bowel cancer by age 85 (<a href="https://www.sydney.edu.au/news-opinion/news/2026/03/02/bowel-cancer-rates-are-rising-among-young-people.html" target="_blank" rel="noopener">1 in 23 in 2026 projections</a>). Adjust it if you like. Dose-response from <a href="https://doi.org/10.1016/S1470-2045(15)00444-1" target="_blank" rel="noopener">IARC, Lancet Oncology 2015</a>, assumed to compound per 50 g.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="stat-row" id="labStats" style="margin-top:16px"></div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ═══════════════ TRY IT ═══════════════ -->
+  <section class="block" id="tryit">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2><span class="num">05</span>Try it yourself</h2>
+        <p>Two counters for the two things Australians most often under-estimate: the sugar in what we drink, and how many standard drinks are in a "couple of glasses".</p>
+      </div>
+      <div class="lab-grid">
+        <div class="card reveal" id="sugarCard">
+          <span class="kicker">Sugar counter</span>
+          <h3>What's in your daily drinks?</h3>
+          <p class="muted small">Add what you drink on a typical day. Each cube is a 4 g teaspoon of sugar.</p>
+          <div class="pick" id="sugarPick"></div>
+          <div class="out-big">
+            <div><div class="lbl">Free sugar</div><div class="big-num" id="sugarG">0 g</div></div>
+            <div><div class="lbl">Teaspoons</div><div class="big-num" id="sugarTsp">0</div></div>
+            <div><div class="lbl">Per year, if daily</div><div class="big-num" id="sugarYr">0 kg</div></div>
+          </div>
+          <div class="cubes" id="cubes" aria-hidden="true"></div>
+          <div class="verdict-line" id="sugarVerdict" aria-live="polite"></div>
+          <p class="small muted">WHO: under 50 g of free sugar a day, ideally under 25 g (about 6 teaspoons), from all food and drink. Sugar in juice counts; lactose in plain milk doesn't (dashed cubes). Typical Australian label values; brands vary.</p>
+        </div>
+
+        <div class="card reveal" id="boozeCard">
+          <span class="kicker">Standard drinks counter</span>
+          <h3>What's in your week?</h3>
+          <p class="muted small">Add a typical week. One Australian standard drink is 10 g of pure alcohol.</p>
+          <div class="pick" id="boozePick"></div>
+          <div class="controls">
+            <div class="control">
+              <label for="maxDay">Most standard drinks on any one day</label><output id="maxDayOut">0</output>
+              <input type="range" id="maxDay" min="0" max="20" step="1" value="0">
+            </div>
+          </div>
+          <div class="out-big">
+            <div><div class="lbl">Standard drinks a week</div><div class="big-num" id="sdWeek">0</div></div>
+            <div><div class="lbl">Breast cancer risk</div><div class="big-num" id="riskBreast">+0%</div></div>
+            <div><div class="lbl">Bowel cancer risk</div><div class="big-num" id="riskBowel">+0%</div></div>
+          </div>
+          <div class="verdict-line" id="boozeVerdict" aria-live="polite"></div>
+          <p class="small muted">Australian guideline (<a href="https://www.nhmrc.gov.au/health-advice/alcohol" target="_blank" rel="noopener">NHMRC 2020</a>): no more than 10 standard drinks a week and 4 on any day; none if pregnant or under 18. Risks are relative to a non-drinker, at about 7% per 10 g a day for both cancers (<a href="https://doi.org/10.1038/sj.bjc.6600596" target="_blank" rel="noopener">breast</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/28407090/" target="_blank" rel="noopener">bowel</a>). Averages, not a personal prediction.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ AUSTRALIA ═══════════════ -->
+  <section class="oz" aria-labelledby="ozTitle">
+    <div class="wrap">
+      <span class="kicker">Meanwhile, in Australia</span>
+      <h2 id="ozTitle" style="font-size:clamp(1.5rem,3vw,2rem)">It didn't all happen in America</h2>
+      <div class="oz-grid">
+        <div class="reveal">
+          <h3>A Heart Foundation Tick on McDonald's</h3>
+          <p>In 2007 nine McDonald's meals carried the Heart Foundation Tick, a licence reportedly worth about A$330,000 a year. The AMA asked if the Tick had been "hamburgled". The program was retired in 2015.</p>
+        </div>
+        <div class="reveal">
+          <h3>Stars "as prepared", and a voluntary system that stalled</h3>
+          <p>Milo rated 4.5 Health Stars because it was scored as if mixed with skim milk. After twelve voluntary years, only about 39% of eligible products carried a rating, so in 2026 ministers began making it compulsory.</p>
+        </div>
+        <div class="reveal">
+          <h3>Toddler "fruit" snacks that were two-thirds sugar</h3>
+          <p>Heinz Little Kids Shredz, sold for 1–3-year-olds with pictures of fruit and veg, were up to 68% sugar. The Federal Court fined Heinz A$2.25 million in 2018.</p>
+        </div>
+        <div class="reveal">
+          <h3>The "Australian Paradox"</h3>
+          <p>A 2011 University of Sydney paper said Australians were eating less sugar while getting fatter, a claim the sugar industry loved. An economist spent years showing the data didn't support it; corrections followed.</p>
+        </div>
+        <div class="reveal">
+          <h3>Sydney's buried diet trial</h3>
+          <p>The Sydney Diet Heart Study (1966–73) swapped butter for safflower oil, and more men died. The full data weren't recovered until 2013. Seed-oil sceptics still cite it; the trial margarine may have contained trans fats.</p>
+        </div>
+        <div class="reveal">
+          <h3>"Free range" hens that never saw outside</h3>
+          <p>The ACCC won penalties against egg producers over fake free-range claims. The national standard then set "free range" at up to 10,000 hens per hectare, far denser than consumer groups wanted.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ VERDICT ═══════════════ -->
+  <section class="block" id="verdict">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2><span class="num">06</span>The verdict</h2>
+        <p>What the evidence agrees on, which scares don't hold up, and whether the food and drink industry is getting any better.</p>
+      </div>
+
+      <div class="ledger">
+        <div class="card reveal">
+          <h3><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--good)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>What the science agrees on</h3>
+          <ul>
+            <li><strong>Sugary drinks</strong> are the clearest single diet–disease link: weight, type 2 diabetes, teeth.</li>
+            <li><strong>Alcohol</strong> causes cancer from low levels. The "glass of red for your heart" was mostly a statistical illusion.</li>
+            <li><strong>Processed meat</strong> causes bowel cancer. The risk is real but modest; make it occasional.</li>
+            <li><strong>Too much salt</strong> raises blood pressure and strokes; a large trial proved it.</li>
+            <li><strong>Diets heavy in ultra-processed food</strong> make people overeat. Which ingredients or processes are to blame is still being worked out.</li>
+            <li><strong>Whole grains, fibre, fruit, vegetables, legumes and nuts</strong> are consistently linked to longer, healthier lives.</li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <h3><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--critical)" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>Scares that don't hold up</h3>
+          <ul>
+            <li><strong>Seed oils</strong> aren't toxic. Swapping butter for them lowers heart risk.</li>
+            <li><strong>Eggs</strong> are fine for most people at up to one a day.</li>
+            <li><strong>Coffee</strong> went from suspect to one of the most consistently "protective" drinks.</li>
+            <li><strong>Sweeteners</strong> don't cause cancer at normal intakes, though they don't help much with weight either.</li>
+            <li><strong>Full-fat dairy</strong> isn't the heart villain it was painted as.</li>
+            <li><strong>"Superfoods"</strong> like coconut oil, pomegranate juice and resveratrol pills were mostly marketing, and in one case fraud.</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 style="margin:40px 0 12px" class="reveal">Is Big Food getting better? A scorecard</h3>
+      <div class="score" id="scorecard"></div>
+
+      <div class="bottom-line reveal">
+        <span class="kicker">The bottom line</span>
+        <h3>The food mostly isn't poison. The spin often is.</h3>
+        <p>Most foods on this list are fine in normal amounts, and a few are good for you. The ones that consistently cause harm are sugary drinks, alcohol, processed meat and too much salt. They're also the ones whose industries have fought hardest, funding friendly science, setting up front groups, and fighting taxes and warning labels.</p>
+        <p><strong>Is it getting better?</strong> <strong>On transparency, yes:</strong> secret deals like the 1967 sugar review would be hard to hide today, trans fats are gone, and the UK's sugar levy worked. <strong>On power, no:</strong> alcohol cancer warnings were delayed in Ireland and numeric drink limits dropped from US guidelines, and Australia still has no sugar tax and only a voluntary star rating. And confusion now comes from every direction, including wellness influencers and governments citing studies that don't exist.</p>
+        <p style="margin:0"><strong>The best defence</strong> is dull: be suspicious of single studies and of anything promising a miracle, check who paid, and remember the advice that hasn't changed in 50 years.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ═══════════════ EVERY CASE ═══════════════ -->
+  <section class="block" id="cases">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2><span class="num">07</span>Every case</h2>
+        <p>Everything behind this page: fines, lawsuits, buried studies, front groups and lobbying wins, each with sources. Filter, search and sort it, or download it as a <a href="https://github.com/RickUsingGitHub/BigFood/blob/main/data/cases.csv" target="_blank" rel="noopener">spreadsheet (CSV)</a> or <a href="https://github.com/RickUsingGitHub/BigFood/blob/main/data/cases.json" target="_blank" rel="noopener">JSON</a>.</p>
+      </div>
+
+      <div class="chart-card reveal" style="margin-bottom:16px">
+        <div class="chart-head">
+          <div>
+            <div class="chart-title">Sixty years of it</div>
+            <div class="chart-sub">Each dot is one case, coloured by the kind of tactic. Tap a dot to find it in the table.</div>
+          </div>
+        </div>
+        <div class="legend tl-legend" id="tlLegend"></div>
+        <div class="chart" id="timeline"></div>
+      </div>
+
+      <div class="filters">
+        <label class="sr-only" for="fFood">Food</label>
+        <select id="fFood"></select>
+        <label class="sr-only" for="fTactic">Tactic</label>
+        <select id="fTactic"></select>
+        <label class="sr-only" for="fWhere">Where</label>
+        <select id="fWhere"></select>
+        <label class="sr-only" for="fText">Search</label>
+        <input id="fText" type="search" placeholder="Search companies, words, countries…">
+        <span class="count" id="fCount"></span>
+      </div>
+      <div class="explorer-wrap">
+        <table class="data explorer" id="explorer">
+          <thead>
+            <tr>
+              <th><button data-sort="year">Year ↕</button></th>
+              <th>Who</th>
+              <th>What happened</th>
+              <th>Tactic</th>
+              <th>Outcome</th>
+              <th class="num"><button data-sort="usd">US$ ↕</button></th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ METHODS ═══════════════ -->
+  <section class="block" id="sources">
+    <div class="wrap">
+      <div class="section-head">
+        <h2><span class="num">08</span>Method &amp; sources</h2>
+      </div>
+      <div class="methods">
+        <p><strong>What "the evidence" means here.</strong> Where randomised trials exist (salt substitutes, the NIH ultra-processed food trial, saturated fat swaps), they come first. Otherwise the site relies on large systematic reviews and pooled cohort studies, and on the World Health Organization, its cancer agency IARC, the World Cancer Research Fund, and Australia's NHMRC. Most nutrition evidence is observational, so "linked to" does not prove "causes"; certainty ratings reflect that.</p>
+        <p><strong>The hype gap and the grid</strong> are judgement calls that summarise the cited sources on a five-point scale, at typical intakes. They're a map, not a measurement. Personal circumstances (diabetes, kidney disease, pregnancy, allergies) change the advice, so check with your GP.</p>
+        <p><strong>Cases.</strong> Each case is described in the language of court findings, regulator decisions or the published research that exposed it. Settling is not admitting: many settlements were made without admitting liability. Jury verdicts can be cut or overturned on appeal. Amounts are in US dollars at about the exchange rate of the time.</p>
+        <p><strong>Funding isn't proof of fraud.</strong> Industry-funded research can be excellent, and independent research can be wrong; the biggest p-hacking and fraud cases here were academics. Funding is a reason to read more carefully, not to dismiss.</p>
+        <p><strong>Advocacy sources are labelled.</strong> Some evidence comes from groups with their own agenda (for example a vegan doctors' group on egg funding). Where that's the case, the site says so.</p>
+        <p><strong>Not medical advice, and corrections welcome.</strong> Open an issue on the GitHub repository with a source.</p>
+      </div>
+      <h3 style="margin-top:24px">Key sources</h3>
+      <ol class="sources" id="sourceList"></ol>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p>Big Food on Trial is an independent evidence summary built from peer-reviewed research, court records and regulator decisions. A companion to <a href="https://github.com/RickUsingGitHub/BigPharma">Big Pharma on Trial</a>. Nothing here is medical advice.</p>
+    <p>Last updated October 2026.</p>
+  </div>
+</footer>
+
+<div class="tooltip" id="tooltip" role="status" aria-live="polite"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/charts.js"></script>
+<script src="assets/js/tools.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

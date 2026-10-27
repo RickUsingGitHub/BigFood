@@ -1,0 +1,1278 @@
+{
+  "foods": [
+    {
+      "id": "sugar",
+      "name": "Sugar",
+      "verdict": "limit",
+      "certainty": "strong",
+      "summary": "Rots teeth, adds easy kilojoules, and the sugar industry spent decades steering science away from it.",
+      "told": {
+        "pos": 0,
+        "who": "Sugar industry, 1960s–2000s",
+        "text": "\"Just empty calories. Fat is the real problem.\""
+      },
+      "evidence": {
+        "pos": -1,
+        "text": "A proven cause of tooth decay and a contributor to weight gain, especially in drinks."
+      },
+      "science": [
+        {
+          "text": "The WHO says keep \"free\" sugars (added sugar plus honey, syrups and juice) under 10% of energy, ideally under 5%. That's about 25 g, or 6 teaspoons, a day for an adult.",
+          "sources": [
+            {
+              "label": "WHO sugars guideline, 2015",
+              "url": "https://www.who.int/publications/i/item/9789241549028"
+            }
+          ]
+        },
+        {
+          "text": "Tooth decay rises with sugar intake at every level studied. This is the strongest evidence.",
+          "sources": [
+            {
+              "label": "Moynihan & Kelly, J Dent Res 2014",
+              "url": "https://doi.org/10.1177/0022034513508954"
+            }
+          ]
+        },
+        {
+          "text": "Eating more sugar raises body weight. Swapping sugar for the same kilojoules of starch does not, so the problem is the extra energy.",
+          "sources": [
+            {
+              "label": "Te Morenga et al., BMJ 2013",
+              "url": "https://doi.org/10.1136/bmj.e7492"
+            }
+          ]
+        },
+        {
+          "text": "In a large US cohort, people getting 25% or more of their calories from added sugar had nearly three times the risk of dying of heart disease. That is observational evidence, not proof of cause.",
+          "sources": [
+            {
+              "label": "Yang et al., JAMA Intern Med 2014",
+              "url": "https://doi.org/10.1001/jamainternmed.2013.13563"
+            }
+          ]
+        }
+      ],
+      "australia": "Australia has no sugar tax. The 2016 Grattan Institute proposal for a sugary drinks tax was rejected. The University of Sydney's \"Australian Paradox\" paper (2011), which claimed Australians were eating less sugar while getting fatter, needed corrections and drew years of criticism.",
+      "what_to_do": "Worry most about sugar you drink. A little in food is fine; a can of soft drink alone is about 10 teaspoons."
+    },
+    {
+      "id": "softdrinks",
+      "name": "Soft drinks",
+      "verdict": "cut",
+      "certainty": "strong",
+      "summary": "The single clearest diet–disease link in nutrition, and the most heavily defended product.",
+      "told": {
+        "pos": 0,
+        "who": "Coca-Cola-funded scientists, 2015",
+        "text": "\"Fine as part of an active lifestyle. The problem is lack of exercise.\""
+      },
+      "evidence": {
+        "pos": -2,
+        "text": "Strongly linked to weight gain, type 2 diabetes and tooth decay."
+      },
+      "science": [
+        {
+          "text": "One sugary drink a day was linked to an 18% higher risk of type 2 diabetes (13% after allowing for body weight).",
+          "sources": [
+            {
+              "label": "Imamura et al., BMJ 2015",
+              "url": "https://doi.org/10.1136/bmj.h3576"
+            }
+          ]
+        },
+        {
+          "text": "Trials and cohort studies show sugary drinks cause weight gain in children and adults.",
+          "sources": [
+            {
+              "label": "Malik et al., Am J Clin Nutr 2013",
+              "url": "https://doi.org/10.3945/ajcn.113.058362"
+            }
+          ]
+        },
+        {
+          "text": "Two or more a day was linked to a higher risk of early death in two big US cohorts.",
+          "sources": [
+            {
+              "label": "Malik et al., Circulation 2019",
+              "url": "https://doi.org/10.1161/CIRCULATIONAHA.118.037401"
+            }
+          ]
+        },
+        {
+          "text": "Taxes work: Mexico's 2014 tax cut purchases by 6% in the first year and 12% by the end of it. The UK levy pushed makers to cut sugar and was linked to 8% fewer obese 10–11-year-old girls.",
+          "sources": [
+            {
+              "label": "Colchero et al., BMJ 2016",
+              "url": "https://doi.org/10.1136/bmj.h6704"
+            },
+            {
+              "label": "Rogers et al., PLOS Medicine 2023",
+              "url": "https://doi.org/10.1371/journal.pmed.1004160"
+            }
+          ]
+        }
+      ],
+      "australia": "In Australia a 375 ml can of regular cola holds about 40 g of sugar, about 10 teaspoons. There's no tax; the industry instead pledged a voluntary 20% sugar cut.",
+      "what_to_do": "Water, or diet versions if you need the fizz. A 600 ml bottle a day adds up to about 23 kg of sugar a year."
+    },
+    {
+      "id": "juice",
+      "name": "Fruit juice",
+      "verdict": "limit",
+      "certainty": "moderate",
+      "summary": "Sold as a serve of fruit; for your teeth and your blood sugar it behaves more like soft drink.",
+      "told": {
+        "pos": 2,
+        "who": "Juice marketing",
+        "text": "\"A healthy glass of fruit. Nothing added.\""
+      },
+      "evidence": {
+        "pos": -1,
+        "text": "The sugar counts as \"free sugar\". Small links to weight gain; whole fruit is better."
+      },
+      "science": [
+        {
+          "text": "The WHO counts the sugars in juice as free sugars, the same category as added sugar.",
+          "sources": [
+            {
+              "label": "WHO sugars guideline, 2015",
+              "url": "https://www.who.int/publications/i/item/9789241549028"
+            }
+          ]
+        },
+        {
+          "text": "Each daily serve of 100% juice was linked to slightly higher BMI in children, and about 0.2 kg extra weight in adults.",
+          "sources": [
+            {
+              "label": "Nguyen et al., JAMA Pediatrics 2024",
+              "url": "https://doi.org/10.1001/jamapediatrics.2023.6124"
+            }
+          ]
+        },
+        {
+          "text": "Whole fruit was linked to a lower risk of type 2 diabetes; fruit juice to a higher one.",
+          "sources": [
+            {
+              "label": "Muraki et al., BMJ 2013",
+              "url": "https://doi.org/10.1136/bmj.f5001"
+            }
+          ]
+        },
+        {
+          "text": "Australia's guidelines count juice as fruit only \"occasionally\", and only 125 ml.",
+          "sources": [
+            {
+              "label": "Australian Dietary Guidelines (NHMRC)",
+              "url": "https://www.eatforhealth.gov.au/guidelines"
+            }
+          ]
+        }
+      ],
+      "australia": "Juice was exempt from the UK sugar levy. The researchers suggested that may be one reason it didn't help younger children.",
+      "what_to_do": "Eat the orange, don't drink three. If you like juice, keep it to a small glass."
+    },
+    {
+      "id": "sweeteners",
+      "name": "Artificial sweeteners",
+      "verdict": "fine",
+      "certainty": "weak",
+      "summary": "Better than sugar for your teeth, no help for long-term weight, and the cancer scare is mostly noise.",
+      "told": {
+        "pos": 1,
+        "who": "\"Diet\" marketing",
+        "text": "\"Zero sugar, so it helps you lose weight.\""
+      },
+      "evidence": {
+        "pos": 0,
+        "text": "Safe at normal intakes, but no proven long-term benefit for weight. Some open questions."
+      },
+      "science": [
+        {
+          "text": "The WHO (2023) advises against using sweeteners for weight control: no long-term benefit for body fat, and a possible (low-certainty) link to diabetes and heart disease.",
+          "sources": [
+            {
+              "label": "WHO sweetener guideline, 2023",
+              "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline"
+            }
+          ]
+        },
+        {
+          "text": "IARC called aspartame \"possibly carcinogenic\" (Group 2B, limited evidence). The same WHO review kept the safe daily limit, which is about 9–14 cans of diet drink a day for a 70 kg adult.",
+          "sources": [
+            {
+              "label": "WHO/IARC aspartame assessment, 2023",
+              "url": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released"
+            }
+          ]
+        },
+        {
+          "text": "Higher blood erythritol was linked to heart attack and stroke, and erythritol made blood platelets stickier. It is early evidence, but worth watching.",
+          "sources": [
+            {
+              "label": "Witkowski et al., Nature Medicine 2023",
+              "url": "https://doi.org/10.1038/s41591-023-02223-9"
+            }
+          ]
+        }
+      ],
+      "australia": "Most Australian \"no sugar\" soft drinks use aspartame, sucralose, acesulfame or stevia.",
+      "what_to_do": "Swapping regular soft drink for diet is a step up. Swapping it for water is a bigger one."
+    },
+    {
+      "id": "upf",
+      "name": "Ultra-processed food",
+      "verdict": "limit",
+      "certainty": "moderate",
+      "summary": "The strongest new idea in nutrition, with a real trial behind it, but a blunt category that lumps bread with lollies.",
+      "told": {
+        "pos": 0,
+        "who": "Food industry",
+        "text": "\"A calorie is a calorie. There are no bad foods, only bad diets.\""
+      },
+      "evidence": {
+        "pos": -1,
+        "text": "Diets high in UPF make people overeat and are linked to many diseases, though not every UPF is equal."
+      },
+      "science": [
+        {
+          "text": "In a tightly controlled NIH trial, people on an ultra-processed diet ate about 500 more calories a day and gained 0.9 kg in two weeks.",
+          "sources": [
+            {
+              "label": "Hall et al., Cell Metabolism 2019",
+              "url": "https://doi.org/10.1016/j.cmet.2019.05.008"
+            }
+          ]
+        },
+        {
+          "text": "A 2024 review of studies covering about 10 million people linked high UPF intake to 32 health problems, including cardiovascular death (+50%), type 2 diabetes and depression.",
+          "sources": [
+            {
+              "label": "Lane et al., BMJ 2024",
+              "url": "https://doi.org/10.1136/bmj-2023-077310"
+            }
+          ]
+        },
+        {
+          "text": "Not all UPF behaves alike: processed meats and sugary drinks drive most of the risk, while wholegrain breads and cereals often show none.",
+          "sources": [
+            {
+              "label": "Cordova et al., Lancet Reg Health Europe 2023",
+              "url": "https://doi.org/10.1016/j.lanepe.2023.100771"
+            }
+          ]
+        },
+        {
+          "text": "A 2025 Lancet series by 43 experts said UPF makers block regulation with the same tactics as tobacco. Critics note most of the evidence is observational.",
+          "sources": [
+            {
+              "label": "Lancet series on ultra-processed food, Nov 2025 (CNN report)",
+              "url": "https://abc17news.com/cnn-health/2025/11/18/out-of-big-tobaccos-handbook-experts-say-ultraprocessed-food-manufacturers-profit-from-minimizing-health-harm/"
+            }
+          ]
+        }
+      ],
+      "australia": "About 42% of the energy Australians eat comes from ultra-processed food (Machado et al., BMJ Open 2019, using the 2011–12 national survey). San Francisco's 2025 lawsuit against ten UPF makers is being watched closely here.",
+      "what_to_do": "Don't panic about every packet. Cut back on the obvious ones: soft drinks, processed meat, sweets, chips and fast food."
+    },
+    {
+      "id": "alcohol",
+      "name": "Alcohol",
+      "verdict": "cut",
+      "certainty": "strong",
+      "summary": "The \"glass of red is good for your heart\" story fell apart; the cancer link didn't.",
+      "told": {
+        "pos": 1,
+        "who": "Wine and beer industry, 1990s–2010s",
+        "text": "\"A drink a day keeps the cardiologist away.\""
+      },
+      "evidence": {
+        "pos": -1.5,
+        "text": "A Group 1 carcinogen. Less is better; the heart \"benefit\" was mostly a statistical illusion."
+      },
+      "science": [
+        {
+          "text": "Alcohol causes at least seven cancers, including breast and bowel. The WHO says no safe level has been identified.",
+          "sources": [
+            {
+              "label": "WHO statement, Lancet Public Health 2023",
+              "url": "https://doi.org/10.1016/S2468-2667(22)00317-6"
+            }
+          ]
+        },
+        {
+          "text": "Breast cancer risk rises about 7% for each 10 g a day, which is one Australian standard drink. Bowel cancer risk also rises about 7%.",
+          "sources": [
+            {
+              "label": "Collaborative Group, Br J Cancer 2002",
+              "url": "https://doi.org/10.1038/sj.bjc.6600596"
+            },
+            {
+              "label": "WCRF update, Annals of Oncology 2017",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28407090/"
+            }
+          ]
+        },
+        {
+          "text": "Once studies stopped comparing drinkers with \"sick quitters\" (people who gave up because they were ill), the apparent benefit of light drinking disappeared.",
+          "sources": [
+            {
+              "label": "Zhao et al., JAMA Network Open 2023",
+              "url": "https://doi.org/10.1001/jamanetworkopen.2023.6185"
+            }
+          ]
+        },
+        {
+          "text": "The US Surgeon General (2025) called for cancer warnings on alcohol labels.",
+          "sources": [
+            {
+              "label": "US Surgeon General advisory, Jan 2025",
+              "url": "https://www.hhs.gov/surgeongeneral/reports-and-publications/alcohol-cancer/index.html"
+            }
+          ]
+        }
+      ],
+      "australia": "Australia's guideline: no more than 10 standard drinks a week and no more than 4 on any day (NHMRC 2020). Pregnancy warnings became compulsory in 2023, after the industry fought the red label.",
+      "what_to_do": "Fewer is better, and alcohol-free days help. Try the drinks counter in \"Try it yourself\" below."
+    },
+    {
+      "id": "meat",
+      "name": "Red & processed meat",
+      "verdict": "limit",
+      "certainty": "strong",
+      "summary": "Processed meat is a proven bowel-cancer cause; red meat is a \"probably\", and both are linked to diabetes.",
+      "told": {
+        "pos": 0.5,
+        "who": "Meat industry; 2019 \"NutriRECS\" guidance",
+        "text": "\"Keep eating it. The evidence against meat is weak.\""
+      },
+      "evidence": {
+        "pos": -1.5,
+        "text": "Processed meat raises bowel cancer risk; red meat probably does; both linked to type 2 diabetes."
+      },
+      "science": [
+        {
+          "text": "IARC: processed meat causes bowel cancer (Group 1; +18% per 50 g a day, about two slices of ham). Red meat probably does (Group 2A; +17% per 100 g a day).",
+          "sources": [
+            {
+              "label": "Bouvard et al. (IARC), Lancet Oncology 2015",
+              "url": "https://doi.org/10.1016/S1470-2045(15)00444-1"
+            }
+          ]
+        },
+        {
+          "text": "Across 1.97 million people, 50 g a day of processed meat was linked to 15% more type 2 diabetes, and 100 g of unprocessed red meat to 10% more.",
+          "sources": [
+            {
+              "label": "Li et al., Lancet Diabetes Endocrinol 2024",
+              "url": "https://doi.org/10.1016/S2213-8587(24)00179-7"
+            }
+          ]
+        },
+        {
+          "text": "Processed meat, but not unprocessed red meat, was linked to more heart disease.",
+          "sources": [
+            {
+              "label": "Micha et al., Circulation 2010",
+              "url": "https://doi.org/10.1161/CIRCULATIONAHA.109.924977"
+            }
+          ]
+        },
+        {
+          "text": "\"Group 1\" means the evidence is as certain as for tobacco, not that the harm is as big. Smoking multiplies lung cancer risk 15–30 times; processed meat raises bowel cancer risk by about a fifth.",
+          "sources": [
+            {
+              "label": "Bouvard et al. (IARC), Lancet Oncology 2015",
+              "url": "https://doi.org/10.1016/S1470-2045(15)00444-1"
+            }
+          ]
+        }
+      ],
+      "australia": "Cancer Council Australia: limit lean red meat to 455 g cooked a week and keep processed meat to a minimum.",
+      "what_to_do": "Make ham and bacon occasional. Red meat a few times a week is fine within 455 g."
+    },
+    {
+      "id": "eggs",
+      "name": "Eggs",
+      "verdict": "fine",
+      "certainty": "moderate",
+      "summary": "Off the naughty list for most people. But the egg industry paid for a lot of that rehabilitation.",
+      "told": {
+        "pos": -1.5,
+        "who": "Heart guidelines, 1970s–2015",
+        "text": "\"A cholesterol bomb. No more than 3 a week.\""
+      },
+      "evidence": {
+        "pos": 0,
+        "text": "Up to an egg a day shows no clear link to heart disease for most people."
+      },
+      "science": [
+        {
+          "text": "Pooled data on 1.7 million people found no link between up to an egg a day and heart disease.",
+          "sources": [
+            {
+              "label": "Drouin-Chartier et al., BMJ 2020",
+              "url": "https://doi.org/10.1136/bmj.m513"
+            }
+          ]
+        },
+        {
+          "text": "But in six other US cohorts, each extra half-egg a day was linked to a 6% higher risk of heart disease, so the debate isn't over.",
+          "sources": [
+            {
+              "label": "Zhong et al., JAMA 2019",
+              "url": "https://doi.org/10.1001/jama.2019.1572"
+            }
+          ]
+        },
+        {
+          "text": "The Heart Foundation (2019) dropped its egg limit for healthy people, but suggests fewer than 7 a week for people with type 2 diabetes.",
+          "sources": [
+            {
+              "label": "Heart Foundation advice on eggs, 2019 (MJA InSight)",
+              "url": "https://insightplus.mja.com.au/2019/33/research-news-in-brief-110"
+            }
+          ]
+        },
+        {
+          "text": "An analysis by a vegan advocacy group found industry funding of egg–cholesterol studies rose from 0% in the 1950s to 60% in the 2010s.",
+          "sources": [
+            {
+              "label": "Barnard et al., Am J Lifestyle Med 2019",
+              "url": "https://hsrc.himmelfarb.gwu.edu/smhs_medicine_facpubs/3446"
+            }
+          ]
+        }
+      ],
+      "australia": "The ACCC won penalties against egg farms whose \"free range\" hens barely went outside. The 2017 national standard then allowed up to 10,000 hens per hectare.",
+      "what_to_do": "An egg a day is fine for most people. What comes with it (bacon, butter, white toast) matters more."
+    },
+    {
+      "id": "dairy",
+      "name": "Milk & dairy",
+      "verdict": "fine",
+      "certainty": "moderate",
+      "summary": "Neither the miracle the ads promised nor the poison its critics claim. Yoghurt looks best.",
+      "told": {
+        "pos": 2,
+        "who": "Dairy marketing",
+        "text": "\"Strong bones! Three serves a day helps you lose weight.\""
+      },
+      "evidence": {
+        "pos": 0.5,
+        "text": "Fine for most people; probably lowers bowel cancer risk. No weight-loss magic, and little sign it prevents fractures."
+      },
+      "science": [
+        {
+          "text": "Drinking more milk was not linked to fewer hip fractures in women.",
+          "sources": [
+            {
+              "label": "Bischoff-Ferrari et al., J Bone Miner Res 2011",
+              "url": "https://doi.org/10.1002/jbmr.279"
+            }
+          ]
+        },
+        {
+          "text": "Dairy probably lowers bowel cancer risk (World Cancer Research Fund). High intakes may slightly raise prostate cancer risk (limited evidence).",
+          "sources": [
+            {
+              "label": "WCRF update, Annals of Oncology 2017",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28407090/"
+            }
+          ]
+        },
+        {
+          "text": "Yoghurt is consistently linked to lower type 2 diabetes risk.",
+          "sources": [
+            {
+              "label": "Chen et al., BMC Medicine 2014",
+              "url": "https://doi.org/10.1186/s12916-014-0215-1"
+            }
+          ]
+        },
+        {
+          "text": "Dairy, including full-fat, was linked to lower death and heart disease rates across 21 countries.",
+          "sources": [
+            {
+              "label": "Dehghan et al. (PURE), Lancet 2018",
+              "url": "https://doi.org/10.1016/S0140-6736(18)31812-9"
+            }
+          ]
+        }
+      ],
+      "australia": "Selling raw milk for drinking is illegal in Australia. A Victorian toddler died in 2014 after drinking raw \"bath milk\".",
+      "what_to_do": "Enjoy it if you like it. Plain yoghurt is a good choice; flavoured milk is mainly a sugar drink."
+    },
+    {
+      "id": "seedoils",
+      "name": "Seed oils",
+      "verdict": "good",
+      "certainty": "moderate",
+      "summary": "The internet's favourite villain. The evidence says swapping butter for these oils protects your heart.",
+      "told": {
+        "pos": -2,
+        "who": "Wellness influencers, \"MAHA\", 2020s",
+        "text": "\"Toxic, inflammatory industrial sludge. Cook in tallow.\""
+      },
+      "evidence": {
+        "pos": 1,
+        "text": "Replacing saturated fat with these oils lowers LDL and heart disease risk."
+      },
+      "science": [
+        {
+          "text": "Cutting saturated fat for two years or more reduced heart attacks and strokes, most when it was replaced with polyunsaturated oils.",
+          "sources": [
+            {
+              "label": "Hooper et al., Cochrane review",
+              "url": "https://doi.org/10.1002/14651858.CD011737"
+            }
+          ]
+        },
+        {
+          "text": "Across 30 cohorts, people with the most linoleic acid (the main omega-6 in seed oils) in their blood had a lower risk of heart disease death.",
+          "sources": [
+            {
+              "label": "Marklund et al., Circulation 2019",
+              "url": "https://doi.org/10.1161/CIRCULATIONAHA.118.038908"
+            }
+          ]
+        },
+        {
+          "text": "Among 221,000 people followed for 33 years, butter eaters died earlier and plant-oil users lived longer.",
+          "sources": [
+            {
+              "label": "Zhang et al., JAMA Intern Med 2025",
+              "url": "https://doi.org/10.1001/jamainternmed.2025.0205"
+            }
+          ]
+        },
+        {
+          "text": "Trials don't show that eating linoleic acid raises inflammation markers, the core claim of the \"seed oils are inflammatory\" theory.",
+          "sources": [
+            {
+              "label": "Johnson & Fritsche, J Acad Nutr Diet 2012",
+              "url": "https://doi.org/10.1016/j.jand.2012.03.029"
+            }
+          ]
+        }
+      ],
+      "australia": "The best evidence against seed oils is Australian: the Sydney Diet Heart Study (1966–73), whose full data only came out in 2013. See the case list.",
+      "what_to_do": "Olive oil is the best-studied choice. Canola and sunflower are fine too. Deep-frying anything, in any fat, is the real problem."
+    },
+    {
+      "id": "satfat",
+      "name": "Butter & saturated fat",
+      "verdict": "limit",
+      "certainty": "moderate",
+      "summary": "\"Butter is back\" made headlines in 2014. It never really came back.",
+      "told": {
+        "pos": 1,
+        "who": "TIME cover 2014; coconut-oil marketing",
+        "text": "\"Eat butter. Coconut oil is a superfood.\""
+      },
+      "evidence": {
+        "pos": -1,
+        "text": "Raises LDL cholesterol; swapping it for unsaturated oils lowers heart risk."
+      },
+      "science": [
+        {
+          "text": "The American Heart Association found that replacing saturated with polyunsaturated fat cut heart disease by about 30% in trials.",
+          "sources": [
+            {
+              "label": "Sacks et al. (AHA advisory), Circulation 2017",
+              "url": "https://doi.org/10.1161/CIR.0000000000000510"
+            }
+          ]
+        },
+        {
+          "text": "Coconut oil raised LDL cholesterol compared with plant oils in trials.",
+          "sources": [
+            {
+              "label": "Neelakantan et al., Circulation 2020",
+              "url": "https://doi.org/10.1161/CIRCULATIONAHA.119.043052"
+            }
+          ]
+        },
+        {
+          "text": "More butter was linked to 15% higher death rates over 33 years.",
+          "sources": [
+            {
+              "label": "Zhang et al., JAMA Intern Med 2025",
+              "url": "https://doi.org/10.1001/jamainternmed.2025.0205"
+            }
+          ]
+        },
+        {
+          "text": "The food matters: saturated fat in cheese and yoghurt seems less harmful than in butter or fatty meat.",
+          "sources": [
+            {
+              "label": "Dehghan et al. (PURE), Lancet 2018",
+              "url": "https://doi.org/10.1016/S0140-6736(18)31812-9"
+            }
+          ]
+        }
+      ],
+      "australia": "Coconut oil was a 2010s supermarket craze in Australia too. Australia never banned trans fats outright; levels here are low by voluntary reformulation.",
+      "what_to_do": "Use olive or canola oil for most cooking. Keep butter and coconut oil for taste, not health."
+    },
+    {
+      "id": "salt",
+      "name": "Salt",
+      "verdict": "limit",
+      "certainty": "strong",
+      "summary": "A huge trial led from Sydney went a long way to settling the \"salt wars\": less sodium means fewer strokes.",
+      "told": {
+        "pos": 0,
+        "who": "Salt and processed-food industry",
+        "text": "\"Salt is harmless, and low-salt diets are dangerous.\""
+      },
+      "evidence": {
+        "pos": -1,
+        "text": "Too much raises blood pressure; cutting it, or swapping to potassium salt, prevents strokes."
+      },
+      "science": [
+        {
+          "text": "In a five-year trial of 20,995 people, swapping salt for a potassium salt substitute cut strokes by 14% and deaths by 12%.",
+          "sources": [
+            {
+              "label": "Neal et al. (SSaSS), NEJM 2021",
+              "url": "https://doi.org/10.1056/NEJMoa2105675"
+            }
+          ]
+        },
+        {
+          "text": "The WHO recommends under 5 g of salt a day. The world average is about 10.8 g.",
+          "sources": [
+            {
+              "label": "WHO fact sheet: sodium",
+              "url": "https://www.who.int/news-room/fact-sheets/detail/salt-reduction"
+            }
+          ]
+        }
+      ],
+      "australia": "The salt substitute trial (SSaSS) was led by Sydney's George Institute and funded by the NHMRC. Most salt Australians eat comes from bread, processed meat and takeaway, not the shaker.",
+      "what_to_do": "If you have high blood pressure, ask your GP about potassium salt substitutes. Most people with kidney disease shouldn't use them."
+    },
+    {
+      "id": "formula",
+      "name": "Baby formula",
+      "verdict": "depends",
+      "certainty": "strong",
+      "summary": "Formula is safe and vital for many babies. The marketing, and some factories, are the problem.",
+      "told": {
+        "pos": 1.5,
+        "who": "Formula marketing",
+        "text": "\"Closer than ever to breast milk. Boosts brain development.\""
+      },
+      "evidence": {
+        "pos": 0.5,
+        "text": "A safe substitute when needed. Most \"brain\" and \"immunity\" claims lack good evidence; toddler milks are unnecessary."
+      },
+      "science": [
+        {
+          "text": "A 2023 Lancet series found that the US$55 billion formula industry uses marketing that exploits parents' worries, with health claims that lack good evidence.",
+          "sources": [
+            {
+              "label": "Lancet series on breastfeeding and formula marketing, 2023",
+              "url": "https://www.thelancet.com/series/Breastfeeding-2023"
+            }
+          ]
+        },
+        {
+          "text": "The 1981 WHO marketing code bans promoting formula to parents. Most countries only partly enforce it.",
+          "sources": [
+            {
+              "label": "Lancet series on breastfeeding and formula marketing, 2023",
+              "url": "https://www.thelancet.com/series/Breastfeeding-2023"
+            }
+          ]
+        }
+      ],
+      "australia": "Australia's formula marketing agreement (MAIF) is voluntary, and it doesn't cover toddler milks, which are heavily advertised.",
+      "what_to_do": "Fed is best. If you use formula, a basic standard formula is as good as a premium one. Toddlers over 12 months don't need toddler milk."
+    },
+    {
+      "id": "cereal",
+      "name": "Cereal & \"healthy\" snacks",
+      "verdict": "depends",
+      "certainty": "moderate",
+      "summary": "The home of the health halo: stars, ticks and claims printed on boxes of sugar.",
+      "told": {
+        "pos": 1.5,
+        "who": "Cereal marketing",
+        "text": "\"Part of a healthy breakfast. Improves attentiveness. Supports immunity.\""
+      },
+      "evidence": {
+        "pos": -0.5,
+        "text": "High-fibre wholegrain cereals are good; many kids' cereals and snacks are a quarter to two-thirds sugar."
+      },
+      "science": [
+        {
+          "text": "Higher fibre and wholegrain intakes are linked to 15–30% less heart disease, stroke, type 2 diabetes and bowel cancer.",
+          "sources": [
+            {
+              "label": "Reynolds et al., Lancet 2019",
+              "url": "https://doi.org/10.1016/S0140-6736(18)31809-9"
+            }
+          ]
+        },
+        {
+          "text": "The FTC found Kellogg's \"improves attentiveness by nearly 20%\" claim was false. The company's own study didn't show it.",
+          "sources": [
+            {
+              "label": "FTC v Kellogg, 2009",
+              "url": "https://www.ftc.gov/node/47083"
+            }
+          ]
+        }
+      ],
+      "australia": "Milo carried 4.5 Health Stars because it was rated as if made with skim milk; on its own the powder scored 1.5. Only 13% of people drank it that way.",
+      "what_to_do": "Check the fibre and the sugar, not the stars. Plain oats, muesli without added sugar, or wholegrain biscuits."
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee & tea",
+      "verdict": "good",
+      "certainty": "moderate",
+      "summary": "Once suspected of causing heart disease and cancer, now one of the most consistently \"protective\" drinks.",
+      "told": {
+        "pos": -1,
+        "who": "Health advice, 1980s–1990s",
+        "text": "\"Bad for your heart, and possibly carcinogenic.\""
+      },
+      "evidence": {
+        "pos": 1,
+        "text": "3–4 cups a day is linked to lower death rates, less liver disease and less type 2 diabetes."
+      },
+      "science": [
+        {
+          "text": "A review of 200+ meta-analyses found 3–4 cups a day linked to the lowest risk of death, heart disease and liver cancer. Caution in pregnancy.",
+          "sources": [
+            {
+              "label": "Poole et al., BMJ 2017",
+              "url": "https://doi.org/10.1136/bmj.j5024"
+            }
+          ]
+        },
+        {
+          "text": "IARC removed coffee from its \"possibly carcinogenic\" list in 2016. Only very hot drinks (over about 65 °C) are flagged.",
+          "sources": [
+            {
+              "label": "IARC press release 244, 2016",
+              "url": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr244_E.pdf"
+            }
+          ]
+        }
+      ],
+      "australia": "Australia's café culture runs on milk-based coffee. The milk doesn't cancel the benefits; the syrups and sugar can.",
+      "what_to_do": "Enjoy it. Avoid too much late in the day, and go easy if you're pregnant."
+    }
+  ],
+  "evidence_grid": [
+    {
+      "row": "Sugary drinks",
+      "benchmark": false,
+      "cells": {
+        "Heart & stroke": {
+          "value": -1,
+          "note": "Linked to more heart disease in cohorts."
+        },
+        "Type 2 diabetes": {
+          "value": -2,
+          "note": "+18% per daily serve (Imamura 2015)."
+        },
+        "Bowel cancer": {
+          "value": "u",
+          "note": "Some links via obesity; no direct case."
+        },
+        "Other cancers": {
+          "value": "u",
+          "note": "Indirect, through weight gain."
+        },
+        "Weight gain": {
+          "value": -2,
+          "note": "Trials and cohorts agree."
+        },
+        "Teeth": {
+          "value": -2,
+          "note": "A direct cause of decay."
+        },
+        "Early death": {
+          "value": -1,
+          "note": "Higher risk at 2+ a day (Malik 2019)."
+        }
+      }
+    },
+    {
+      "row": "Added sugar (food)",
+      "benchmark": false,
+      "cells": {
+        "Heart & stroke": {
+          "value": -1,
+          "note": "Observational links at high intakes."
+        },
+        "Type 2 diabetes": {
+          "value": -1,
+          "note": "Mostly through weight gain."
+        },
+        "Bowel cancer": {
+          "value": "u",
+          "note": "No clear link."
+        },
+        "Other cancers": {
+          "value": "u",
+          "note": "Indirect, through weight."
+        },
+        "Weight gain": {
+          "value": -1,
+          "note": "More sugar means more kilojoules (Te Morenga 2013)."
+        },
+        "Teeth": {
+          "value": -2,
+          "note": "The main dietary cause of tooth decay."
+        },
+        "Early death": {
+          "value": "u",
+          "note": "Hard to separate from the rest of the diet."
+        }
+      }
+    },
+    {
+      "row": "Fruit juice",
+      "benchmark": false,
+      "cells": {
+        "Heart & stroke": {
+          "value": "u",
+          "note": "No clear link either way."
+        },
+        "Type 2 diabetes": {
+          "value": -1,
+          "note": "Small increase; weaker evidence."
+        },
+        "Bowel cancer": {
+          "value": "u",
+          "note": "No clear link."
+        },
+        "Other cancers": {
+          "value": "u",
+          "note": "No clear link."
+        },
+        "Weight gain": {
+          "value": -1,
+          "note": "Small gains in children and adults."
+        },
+        "Teeth": {
+          "value": -1,
+          "note": "Sugary and acidic."
+        },
+        "Early death": {
+          "value": "u",
+          "note": "No clear link."
+        }
+      }
+    },
+    {
+      "row": "Sweeteners",
+      "benchmark": false,
+      "cells": {
+        "Heart & stroke": {
+          "value": "u",
+          "note": "Possible links in cohorts (low certainty); erythritol under study."
+        },
+        "Type 2 diabetes": {
+          "value": "u",
+          "note": "Cohort links may reflect people already at risk."
+        },
+        "Bowel cancer": {
+          "value": 0,
+          "note": "No clear link."
+        },
+        "Other cancers": {
+          "value": 0,
+          "note": "Aspartame \"possible\" (limited evidence); safe limit kept."
+        },
+        "Weight gain": {
+          "value": 0,
+          "note": "No long-term benefit (WHO 2023)."
+        },
+        "Teeth": {
+          "value": 1,
+          "note": "Do not cause decay."
+        },
+        "Early death": {
+          "value": "u",
+          "note": "Unclear."
+        }
+      }
+    },
+    {
+      "row": "Ultra-processed food",
+      "benchmark": false,
+      "cells": {
+        "Heart & stroke": {
+          "value": -1,
+          "note": "Heart disease death +50% (Lane 2024), observational."
+        },
+        "Type 2 diabetes": {
+          "value": -1,
+          "note": "Consistent links."
+        },
+        "Bowel cancer": {
+          "value": "u",
+          "note": "Mixed findings."
+        },
+        "Other cancers": {
+          "value": "u",
+          "note": "Mixed findings."
+        },
+        "Weight gain": {
+          "value": -2,
+          "note": "Trial: +500 kcal a day, +0.9 kg in 2 weeks."
+        },
+        "Teeth": null,
+        "Early death": {
+          "value": -1,
+          "note": "+21% (highly suggestive evidence)."
+        }
+      }
+    },
+    {
+      "row": "Alcohol",
+      "benchmark": false,
+      "cells": {
+        "Heart & stroke": {
+          "value": -1,
+          "note": "Raises blood pressure, atrial fibrillation and stroke risk; the \"protective\" effect looks like bias."
+        },
+        "Type 2 diabetes": {
+          "value": "u",
+          "note": "Disputed."
+        },
+        "Bowel cancer": {
+          "value": -2,
+          "note": "+7% per standard drink a day."
+        },
+        "Other cancers": {
+          "value": -2,
+          "note": "Causes 7 cancers including breast."
+        },
+        "Weight gain": {
+          "value": -1,
+          "note": "Energy-dense and boosts appetite."
+        },
+        "Teeth": null,
+        "Early death": {
+          "value": -1,
+          "note": "Risk rises with amount; light drinking shows no benefit once bias is removed."
+        }
+      }
+    },
+    {
+      "row": "Processed meat",
+      "benchmark": false,
+      "cells": {
+        "Heart & stroke": {
+          "value": -1,
+          "note": "+42% heart disease per 50 g a day (Micha 2010)."
+        },
+        "Type 2 diabetes": {
+          "value": -1,
+          "note": "+15% per 50 g a day."
+        },
+        "Bowel cancer": {
+          "value": -2,
+          "note": "IARC Group 1: +18% per 50 g a day."
+        },
+        "Other cancers": {
+          "value": -1,
+          "note": "Stomach cancer."
+        },
+        "Weight gain": {
+          "value": "u",
+          "note": "Unclear."
+        },
+        "Teeth": null,
+        "Early death": {
+          "value": -1,
+          "note": "Linked to higher mortality."
+        }
+      }
+    },
+    {
+      "row": "Red meat (fresh)",
+      "benchmark": false,
+      "cells": {
+        "Heart & stroke": {
+          "value": "u",
+          "note": "Weak, inconsistent links."
+        },
+        "Type 2 diabetes": {
+          "value": -1,
+          "note": "+10% per 100 g a day."
+        },
+        "Bowel cancer": {
+          "value": -1,
+          "note": "IARC Group 2A: probably."
+        },
+        "Other cancers": {
+          "value": "u",
+          "note": "Limited evidence."
+        },
+        "Weight gain": {
+          "value": "u",
+          "note": "Unclear."
+        },
+        "Teeth": null,
+        "Early death": {
+          "value": "u",
+          "note": "Small, inconsistent links."
+        }
+      }
+    },
+    {
+      "row": "Eggs",
+      "benchmark": false,
+      "cells": {
+        "Heart & stroke": {
+          "value": 0,
+          "note": "Up to 1 a day: no clear link in most analyses."
+        },
+        "Type 2 diabetes": {
+          "value": "u",
+          "note": "US studies suggest risk; others don’t."
+        },
+        "Bowel cancer": {
+          "value": 0,
+          "note": "No link."
+        },
+        "Other cancers": {
+          "value": 0,
+          "note": "No consistent link."
+        },
+        "Weight gain": {
+          "value": 0,
+          "note": "No link."
+        },
+        "Teeth": null,
+        "Early death": {
+          "value": "u",
+          "note": "Disputed (Zhong 2019 v Drouin-Chartier 2020)."
+        }
+      }
+    },
+    {
+      "row": "Milk & dairy",
+      "benchmark": false,
+      "cells": {
+        "Heart & stroke": {
+          "value": 0,
+          "note": "Neutral or slightly protective."
+        },
+        "Type 2 diabetes": {
+          "value": 1,
+          "note": "Yoghurt linked to lower risk."
+        },
+        "Bowel cancer": {
+          "value": 1,
+          "note": "Probably protective (WCRF)."
+        },
+        "Other cancers": {
+          "value": "u",
+          "note": "Possibly higher prostate risk at high intakes."
+        },
+        "Weight gain": {
+          "value": 0,
+          "note": "No special effect."
+        },
+        "Teeth": null,
+        "Early death": {
+          "value": 0,
+          "note": "Neutral in most studies."
+        }
+      }
+    },
+    {
+      "row": "Seed oils",
+      "benchmark": false,
+      "cells": {
+        "Heart & stroke": {
+          "value": 1,
+          "note": "Lower heart disease when replacing saturated fat."
+        },
+        "Type 2 diabetes": {
+          "value": 1,
+          "note": "Higher linoleic acid, lower diabetes risk."
+        },
+        "Bowel cancer": {
+          "value": 0,
+          "note": "No link."
+        },
+        "Other cancers": {
+          "value": 0,
+          "note": "No consistent link."
+        },
+        "Weight gain": {
+          "value": 0,
+          "note": "Same energy as any fat."
+        },
+        "Teeth": null,
+        "Early death": {
+          "value": 1,
+          "note": "Plant oils linked to lower mortality."
+        }
+      }
+    },
+    {
+      "row": "Butter & coconut oil",
+      "benchmark": false,
+      "cells": {
+        "Heart & stroke": {
+          "value": -1,
+          "note": "Raises LDL cholesterol."
+        },
+        "Type 2 diabetes": {
+          "value": "u",
+          "note": "Unclear."
+        },
+        "Bowel cancer": {
+          "value": "u",
+          "note": "Unclear."
+        },
+        "Other cancers": {
+          "value": "u",
+          "note": "Unclear."
+        },
+        "Weight gain": {
+          "value": 0,
+          "note": "Same energy as any fat."
+        },
+        "Teeth": null,
+        "Early death": {
+          "value": -1,
+          "note": "Butter +15% mortality (Zhang 2025)."
+        }
+      }
+    },
+    {
+      "row": "Salt",
+      "benchmark": false,
+      "cells": {
+        "Heart & stroke": {
+          "value": -2,
+          "note": "Trial-proven: substitute cut strokes 14%."
+        },
+        "Type 2 diabetes": {
+          "value": "u",
+          "note": "Unclear."
+        },
+        "Bowel cancer": {
+          "value": 0,
+          "note": "No link."
+        },
+        "Other cancers": {
+          "value": -1,
+          "note": "Stomach cancer (salt-preserved food)."
+        },
+        "Weight gain": null,
+        "Teeth": null,
+        "Early death": {
+          "value": -1,
+          "note": "−12% deaths with substitute (SSaSS)."
+        }
+      }
+    },
+    {
+      "row": "Coffee",
+      "benchmark": false,
+      "cells": {
+        "Heart & stroke": {
+          "value": 1,
+          "note": "Lower risk at 3–4 cups."
+        },
+        "Type 2 diabetes": {
+          "value": 1,
+          "note": "Consistently lower risk."
+        },
+        "Bowel cancer": {
+          "value": 0,
+          "note": "Neutral to slightly lower."
+        },
+        "Other cancers": {
+          "value": 1,
+          "note": "Lower liver cancer."
+        },
+        "Weight gain": {
+          "value": 0,
+          "note": "Black coffee: none."
+        },
+        "Teeth": null,
+        "Early death": {
+          "value": 1,
+          "note": "Lowest risk at 3–4 cups."
+        }
+      }
+    },
+    {
+      "row": "Whole grains & fibre",
+      "benchmark": true,
+      "cells": {
+        "Heart & stroke": {
+          "value": 2,
+          "note": "15–30% lower (Reynolds 2019)."
+        },
+        "Type 2 diabetes": {
+          "value": 2,
+          "note": "Consistently lower."
+        },
+        "Bowel cancer": {
+          "value": 1,
+          "note": "Lower."
+        },
+        "Other cancers": {
+          "value": "u",
+          "note": "Some links."
+        },
+        "Weight gain": {
+          "value": 1,
+          "note": "Lower body weight in trials."
+        },
+        "Teeth": null,
+        "Early death": {
+          "value": 1,
+          "note": "Lower."
+        }
+      }
+    },
+    {
+      "row": "Fruit & veg (whole)",
+      "benchmark": true,
+      "cells": {
+        "Heart & stroke": {
+          "value": 2,
+          "note": "Strongly lower."
+        },
+        "Type 2 diabetes": {
+          "value": 1,
+          "note": "Whole fruit lower."
+        },
+        "Bowel cancer": {
+          "value": 0,
+          "note": "Weak links."
+        },
+        "Other cancers": {
+          "value": 1,
+          "note": "Some cancers lower."
+        },
+        "Weight gain": {
+          "value": 1,
+          "note": "Lower."
+        },
+        "Teeth": null,
+        "Early death": {
+          "value": 1,
+          "note": "800 g a day linked to 31% lower early death (Aune 2017)."
+        }
+      }
+    }
+  ]
+}
