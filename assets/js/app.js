@@ -14,7 +14,8 @@
   const VERDICT = { cut: 'Cut right down', limit: 'Limit it', fine: 'Fine for most', good: 'Probably good', depends: 'It depends' };
   const CERT = { strong: ['●●●', 'strong'], moderate: ['●●○', 'moderate'], weak: ['●○○', 'weak'] };
   const STATUS = { fined: 'Penalty or conviction', settled: 'Settled', verdict: 'Jury verdict (appeals possible)', ruled: 'Ruled misleading or improper',
-    exposed: 'Exposed', retracted: 'Misconduct found', policy: 'Lobbying or policy fight', open: 'Case ongoing' };
+    exposed: 'Exposed', retracted: 'Misconduct found', policy: 'Lobbying or policy fight', open: 'Case ongoing',
+    funded: 'Industry-funded (disclosed)', unsupported: 'Health claims not supported' };
   const GRID_FOOD = { procmeat: 'meat', redmeat: 'meat' };
   const eventsFor = (pred) => EVENTS.filter(pred).sort((a, b) => a.year - b.year);
   const paid = (e) => (e.status === 'fined' || e.status === 'settled') && e.usd ? e.usd : 0;

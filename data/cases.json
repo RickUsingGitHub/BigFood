@@ -252,6 +252,30 @@
     ]
   },
   {
+    "id": "a2milk",
+    "year": 2009,
+    "foods": [
+      "Milk & dairy"
+    ],
+    "who": "The a2 Milk Company",
+    "where": "Australia / NZ",
+    "tactic": "Health halos and false claims",
+    "status": "unsupported",
+    "usd_millions": null,
+    "title": "A2 milk: easier on some stomachs, not a cure-all",
+    "description": "Early research and marketing around A2 milk suggested the A1 protein in ordinary milk might contribute to type 1 diabetes, heart disease and even autism. The European Food Safety Authority found no cause-and-effect link in 2009. Later reviews found reasonable evidence that A2 milk causes less bloating and discomfort for some people, but little or none for the wider claims. Several of the positive digestion trials were funded by The a2 Milk Company, which is listed in Australia and New Zealand. A2 milk has the same lactose, so it doesn't help true lactose intolerance.",
+    "sources": [
+      {
+        "label": "EFSA review of beta-casomorphins, 2009",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/231r"
+      },
+      {
+        "label": "Review of A1/A2 milk studies in humans",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10806982/"
+      }
+    ]
+  },
+  {
     "id": "vitaminwater",
     "year": 2010,
     "foods": [
@@ -272,6 +296,31 @@
       {
         "label": "IPKat, 2010",
         "url": "https://ipkitten.blogspot.com/2010/08/what-no-consumer-could-reasonably.html"
+      }
+    ]
+  },
+  {
+    "id": "cheese",
+    "year": 2010,
+    "foods": [
+      "Milk & dairy",
+      "Ultra-processed food"
+    ],
+    "who": "Dairy Management Inc. (US dairy checkoff)",
+    "where": "US",
+    "tactic": "Lean on the rule-makers",
+    "status": "exposed",
+    "usd_millions": null,
+    "title": "The government’s dairy marketer helped Domino’s add 40% more cheese",
+    "description": "Dairy Management, a marketing body created by the US Department of Agriculture and funded mainly by compulsory levies on dairy farmers (about US$140 million a year), co-developed a Domino's pizza range with 40% more cheese and paid for a US$12 million ad campaign. It also worked with Taco Bell and McDonald's on cheesier menu items. Meanwhile the same department's dietary guidelines told Americans to cut saturated fat. Revealed by the New York Times in 2010.",
+    "sources": [
+      {
+        "label": "Maclean’s, 2010",
+        "url": "https://www.macleans.ca/general/u-s-pushes-cheese-sales-while-warning-about-saturated-fat/"
+      },
+      {
+        "label": "Consumerist, 2010",
+        "url": "https://consumerist.com/2010/11/08/government-cheese"
       }
     ]
   },
@@ -733,11 +782,15 @@
     "status": "exposed",
     "usd_millions": null,
     "title": "\"Keep eating red meat\" guidance, and an undisclosed sugar-industry link",
-    "description": "A guideline in the Annals of Internal Medicine told adults to continue current red and processed meat intake, contradicting most health bodies. Its lead author hadn't disclosed his senior role in the ILSI-funded sugar review (above) a few years before. The authors said the meat work had no industry funding.",
+    "description": "A guideline in the Annals of Internal Medicine told adults to continue current red and processed meat intake, contradicting most health bodies. Its lead author hadn't disclosed his senior role in the ILSI-funded sugar review (above) a few years before. In December 2019 the journal published a correction adding an undisclosed grant from Texas A&M AgriLife Research, an agency that also receives beef-industry money, to his disclosures.",
     "sources": [
       {
         "label": "Johnston et al., Ann Intern Med 2019",
         "url": "https://doi.org/10.7326/M19-1621"
+      },
+      {
+        "label": "The Cancer Letter, 2020",
+        "url": "https://cancerletter.com/?p=12432"
       }
     ]
   },
@@ -1011,6 +1064,34 @@
       {
         "label": "Lancet series on ultra-processed food, Nov 2025 (CNN report)",
         "url": "https://abc17news.com/cnn-health/2025/11/18/out-of-big-tobaccos-handbook-experts-say-ultraprocessed-food-manufacturers-profit-from-minimizing-health-harm/"
+      }
+    ]
+  },
+  {
+    "id": "eggs2025",
+    "year": 2025,
+    "foods": [
+      "Eggs"
+    ],
+    "who": "Egg Nutrition Center (American Egg Board)",
+    "where": "Australia / US",
+    "tactic": "Pay for friendly science",
+    "status": "funded",
+    "usd_millions": null,
+    "title": "\"Two eggs a day lowers cholesterol\": the headline, and who paid",
+    "description": "A 2025 University of South Australia trial made world news for finding that two eggs a day lowered LDL cholesterol. But the egg diet was low in saturated fat and the comparison diet was high in it, so it showed that saturated fat drives LDL, not that eggs lower it. It was funded by the American Egg Board's Egg Nutrition Center, which also part-funded a 2024 study linking eggs to less Alzheimer's disease.",
+    "sources": [
+      {
+        "label": "Nestle on the 2025 egg–LDL trial",
+        "url": "https://www.foodpolitics.com/2025/07/industry-funded-study-of-the-week-eggs-2/"
+      },
+      {
+        "label": "Nestle on the 2024 egg–Alzheimer’s study",
+        "url": "https://www.foodpolitics.com/2025/10/industry-funded-study-of-the-week-eggs-and-alzheimers-risk/"
+      },
+      {
+        "label": "ScienceAlert, 2025",
+        "url": "https://sciencealert.com/eating-eggs-can-actually-lower-bad-cholesterol-new-study-says"
       }
     ]
   },
