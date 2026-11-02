@@ -297,6 +297,7 @@
         [`IARC removed coffee from its "possibly carcinogenic" list in 2016. Only very hot drinks (over about 65 °C) are flagged.`, SRC.iarcCoffee]
       ],
       oz: `Australia's café culture runs on milk-based coffee. The milk doesn't cancel the benefits; the syrups and sugar can.`,
+      quiet: `No scandals on file. Some coffee research is part-funded by the coffee industry (through the Institute for Scientific Information on Coffee), so it's still worth checking who paid.`,
       tip: `Enjoy it. Avoid too much late in the day, and go easy if you're pregnant.` }
   ];
 
