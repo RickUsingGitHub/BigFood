@@ -194,7 +194,7 @@
       const evs = eventsFor(e => e.foods.includes(f.id));
       b.appendChild(h('h4', null, evs.length ? `The dodgy history (${evs.length})` : 'The dodgy history'));
       if (evs.length) { const l = h('div', 'case-list'); evs.forEach(e => l.appendChild(caseEl(e))); b.appendChild(l); }
-      else b.appendChild(h('p', 'muted', 'Nothing major on file. Coffee research is part-funded by the coffee industry (through the Institute for Scientific Information on Coffee), so check who paid, but no scandals.'));
+      else b.appendChild(h('p', 'muted', f.quiet || 'No scandals on file for this one.'));
       b.appendChild(h('h4', null, 'In Australia'));
       b.appendChild(h('p', 'oz-note', f.oz));
       b.appendChild(h('h4', null, 'What to actually do'));
