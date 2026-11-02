@@ -129,7 +129,7 @@
       science: [
         [`The WHO says keep "free" sugars (added sugar plus honey, syrups and juice) under 10% of energy, ideally under 5%. That's about 25 g, or 6 teaspoons, a day for an adult.`, SRC.whoSugar],
         [`Tooth decay rises with sugar intake at every level studied. This is the strongest evidence.`, SRC.moynihan],
-        [`Eating more sugar raises body weight. Swapping sugar for the same kilojoules of starch does not, so the problem is the extra energy.`, SRC.teMorenga],
+        [`In trials, people who ate more sugar gained weight. But swapping sugar for the same kilojoules of starch made no difference, so sugar isn't uniquely fattening: it adds weight by adding kilojoules, and it's very easy to overdo, especially in drinks.`, SRC.teMorenga],
         [`In a large US cohort, people getting 25% or more of their calories from added sugar had nearly three times the risk of dying of heart disease. That is observational evidence, not proof of cause.`, SRC.yang]
       ],
       oz: `Australia has no sugar tax. The 2016 Grattan Institute proposal for a sugary drinks tax was rejected. The University of Sydney's "Australian Paradox" paper (2011), which claimed Australians were eating less sugar while getting fatter, needed corrections and drew years of criticism.`,
